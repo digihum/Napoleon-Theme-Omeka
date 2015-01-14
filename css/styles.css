@@ -1,0 +1,922 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: Regular 0.875em/1.38 'Aller Light';
+  color: rgb(200, 200, 200);
+}
+
+.page-index {
+  font-family: Aller-Light;
+  font-weight: normal;
+}
+
+.about-contents article {
+  float: left;
+  width: 57.4999999999%;
+  height: 25.5em;
+}
+
+.about-index-contents h2 {
+  margin-left: 33.87622%;
+}
+
+.contact-contents h2 {
+  margin-left: 24.23651%;
+}
+
+.contributors-contents article {
+  width: 100%;
+  min-height: 14.286em;
+  margin: 12.5em auto 0;
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(200, 200, 200);
+}
+
+.contributors-contents h2,
+.editorial-contents h2 {
+  margin: 0 auto;
+  font-family: 'Dustismo Roman';
+  text-align: center;
+}
+
+.contributors-contents li {
+  float: left;
+  font-size: 0.929em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 181, 86);
+}
+
+.contributors-contents ul {
+  width: 27.0100502512%;
+  height: 1.214em;
+  margin: 1.929em auto 0;
+}
+
+.hero-contents article {
+  float: left;
+  width: 36.9791666666%;
+  height: 24.5em;
+  margin: 1.143em 0 0 4.05924%;
+}
+
+.object-display h2 {
+  position: absolute;
+  top: 0.64em;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  width: 99.8188405797%;
+  margin: 0 auto;
+  font-family: DustismoRoman;
+  text-align: center;
+}
+
+.object-display h3 {
+  position: absolute;
+  top: 29em;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  width: 99.8188405797%;
+  margin: 0 auto;
+}
+
+.social-container h2 {
+  margin-left: 32.2870599999%;
+}
+
+.teammate1-contents h3,
+.teammate2-contents h3 {
+  margin: 1.385em auto 0;
+}
+
+.teammate3-contents h3 {
+  margin: 1.462em auto 0;
+}
+
+a {
+  display: block;
+  position: absolute;
+  top: 0;
+  padding: 0.385em;
+  font: 0.929em/1.38 Aller;
+  color: rgb(92, 150, 210);
+}
+
+a:active {
+  border-bottom-width: 0;
+  border-bottom-style: none;
+  color: rgb(160, 207, 255);
+}
+
+a:focus {
+  border-bottom-width: 0.154em;
+  border-bottom-color: rgb(225, 127, 0);
+}
+
+article button {
+  width: 100%;
+  height: 2.333em;
+  margin: 13.619em auto 0;
+  border: 0.048em solid #d94e3b;
+  border-radius: 0.238em;
+  background-color: #cb3b27;
+  box-shadow: 0 9px 0 #84261a;
+  font-family: Arial;
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+}
+
+article button:active {
+  box-shadow: 0 2px 0 #84261a;
+}
+
+article h2 {
+  float: left;
+  font-family: 'Dustismo Roman';
+}
+
+button {
+  display: block;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+}
+
+div section {
+  position: relative;
+  float: left;
+  width: 57.4999999999%;
+  height: 28.143em;
+}
+
+footer {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 25em;
+  background-color: rgb(253, 177, 63);
+}
+
+footer button {
+  float: left;
+  width: 38.1806344696%;
+  height: 1.313em;
+  margin: 13.625em 0 0 61.73651%;
+  border-radius: 0.188em;
+  background-color: rgb(222, 222, 222);
+  font-family: 'Dustismo Roman';
+  font-size: 1.143em;
+  color: rgb(0, 0, 0);
+}
+
+footer h2 {
+  float: left;
+  font-family: 'Dustismo Roman';
+  color: rgb(53, 53, 53);
+}
+
+footer img {
+  float: left;
+  width: 42px;
+}
+
+footer input {
+  left: -0.0710227273%;
+  width: 100%;
+  height: 1.769em;
+  background-color: rgb(242, 242, 242);
+  font-family: 'Dustismo Roman';
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+  position: absolute;
+  top: 0.9em;
+  left: 0;
+  z-index: 35;
+  padding: 0.025em;
+  font: 2.857em/1.38 DustismoRoman;
+  color: rgb(225, 127, 0);
+}
+
+h2 {
+  font-size: 1.786em;
+  line-height: 1.38;
+}
+
+h3 {
+  font-size: 0.929em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 181, 86);
+}
+
+h4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 174px;
+  margin: 0 auto;
+  font: 0.857em/1.38 Aller;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+h5 {
+  margin: 0 auto;
+  font-size: 0.786em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(253, 218, 135);
+}
+
+header {
+  float: left;
+  width: 100%;
+  height: 16.429em;
+}
+
+header img {
+  position: absolute;
+  top: 0;
+  right: 0.0830078125%;
+  z-index: 33;
+  width: 204px;
+}
+
+header section {
+  float: left;
+  width: 100%;
+}
+
+img {
+  display: block;
+  height: auto;
+  overflow: hidden;
+}
+
+input {
+  display: block;
+  position: absolute;
+  padding: 0 0.769em;
+  font-size: 0.929em;
+  line-height: 1.38;
+}
+
+nav {
+  position: absolute;
+  top: 6.643em;
+  right: -0.1041666667%;
+  z-index: 32;
+  width: 49.0625%;
+  height: 1.929em;
+}
+
+nav li {
+  height: 1.929em;
+}
+
+nav ul {
+  position: absolute;
+  top: 0;
+  left: -0.0040167096%;
+  z-index: 31;
+  width: 100%;
+  height: 1.929em;
+}
+
+section h2 {
+  color: rgb(225, 127, 0);
+}
+
+section input {
+  top: 11.308em;
+  right: 0.0830078125%;
+  z-index: 18;
+  width: 28.4169750231%;
+  height: 1.923em;
+  border-radius: 0.154em;
+  background-color: rgba(92, 150, 210, 0.33);
+  color: rgb(160, 207, 255);
+}
+
+section input:active {
+  border-bottom: 0.077em solid rgb(225, 127, 0);
+}
+
+textarea {
+  display: block;
+  position: absolute;
+  top: 4em;
+  left: -0.0710227273%;
+  z-index: 48;
+  width: 100%;
+  height: 8.5em;
+  padding: 0.313em;
+  background-color: rgb(242, 242, 242);
+  font: 400 1.143em/1.38 'Dustismo Roman';
+  color: rgb(0, 0, 0);
+  resize: none;
+}
+
+.about-text p,
+.logo-collaborators p,
+.summary-text p,
+div article p {
+  margin-bottom: 1em;
+  font-family: 'Aller-Light';
+}
+
+.about-contents {
+  position: absolute;
+  top: 4.5em;
+  left: 0;
+  right: 0;
+  z-index: 25;
+  width: 960px;
+  height: 25.5em;
+  margin: 0 auto;
+}
+
+.about-index-contents {
+  float: left;
+  width: 31.9791666666%;
+  height: 19.286em;
+}
+
+.about-index-desc {
+  float: left;
+  clear: both;
+  width: 99.7362012987%;
+  min-height: 13.214em;
+  margin-top: 0.571em;
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(58, 58, 58);
+}
+
+.about-text {
+  float: left;
+  clear: both;
+  width: 100%;
+  min-height: 14.286em;
+  margin-top: 0.714em;
+  font: normal 1em/1.38 Aller-Light;
+  color: rgb(200, 200, 200);
+}
+
+.admin-bar {
+  height: 2.143em;
+  background-color: rgb(12, 12, 12);
+}
+
+.collaborators {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 20.071em;
+  border-top: 0.214em solid rgb(225, 127, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+.collaborators-contents {
+  position: absolute;
+  top: 2.071em;
+  left: 0;
+  right: 0;
+  z-index: 6;
+  width: 960px;
+  height: 13.429em;
+  margin: 0 auto;
+}
+
+.contact-contents {
+  position: relative;
+  float: left;
+  width: 27.5%;
+  height: 20.429em;
+  margin-left: 8.54167%;
+}
+
+.contact-form {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 17.071em;
+  margin-top: 0.929em;
+}
+
+.contributors {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 39.357em;
+  border-bottom: 0.214em solid rgb(50, 78, 107);
+  background-color: rgb(131, 80, 0);
+}
+
+.contributors-contents {
+  position: absolute;
+  top: 2.143em;
+  left: 0;
+  right: 0;
+  z-index: 4;
+  width: 796px;
+  height: 35em;
+  margin: 0 auto;
+}
+
+.disclaimer-contents {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 3.429em;
+  margin-top: 1.714em;
+  background-color: rgb(0, 0, 0);
+}
+
+.disclaimer-statement {
+  margin: 1em auto 0;
+  font-size: 0.714em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(50, 78, 107);
+}
+
+.editorial {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 28.429em;
+  border-top: 0.214em solid rgb(225, 127, 0);
+  background-color: rgb(50, 78, 107);
+}
+
+.editorial-contents {
+  position: absolute;
+  top: 1.357em;
+  left: 0;
+  right: 0;
+  z-index: 19;
+  width: 961px;
+  height: 22.286em;
+  margin: 0 auto;
+}
+
+.ehrc {
+  float: left;
+  margin: 2.5em 0 0 4.1424899999%;
+  font: 400 1.429em/0.18 Aller;
+  color: rgb(0, 0, 0);
+}
+
+.email {
+  top: 2.385em;
+  z-index: 47;
+}
+
+.events {
+  left: -0.3693181819%;
+  z-index: 27;
+}
+
+.fb {
+  margin-left: 27.78623%;
+}
+
+.footer-contents {
+  width: 960px;
+  height: 20.429em;
+  margin: 2.929em auto 0;
+}
+
+.header {
+  position: relative;
+  clear: both;
+  height: 14.286em;
+  background-color: rgb(12, 22, 31);
+}
+
+.header-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 36;
+  width: 960px;
+  height: 12.286em;
+  margin: 0 auto;
+}
+
+.hero {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 31.857em;
+  background-image: url('/NapoleonOmeka/themes/Napoleon-Theme/images/background.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.hero-contents {
+  width: 960px;
+  height: 28.143em;
+  margin: 2.357em auto 0;
+}
+
+.home {
+  left: -1.7323369566%;
+  z-index: 19;
+}
+
+.home:active {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+}
+
+.hrf {
+  float: left;
+  margin: 2.5em 0 0 8.51239%;
+  font: 400 1.429em/0.18 Aller;
+  color: rgb(0, 0, 0);
+}
+
+.img {
+  float: left;
+  width: 40.4166666666%;
+  height: 16.429em;
+  margin: 5.286em 0 0 2%;
+  background-image: url('/NapoleonOmeka/themes/Napoleon-Theme/images/image-placeholder-550.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left top;
+}
+
+.introduction {
+  float: left;
+  clear: both;
+  width: 100%;
+  min-height: 14.286em;
+  margin-top: 0.429em;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(200, 200, 200);
+}
+
+.links {
+  left: -0.4616477273%;
+  z-index: 29;
+}
+
+.links:focus {
+  border-bottom-style: solid;
+}
+
+.logo-collaborators {
+  width: 83.0208333333%;
+  height: 9.143em;
+  margin: 4.286em auto 0;
+}
+
+.name {
+  top: 0;
+  z-index: 46;
+}
+
+.object-slider {
+  position: relative;
+  float: left;
+  z-index: 8;
+  width: 100%;
+  height: 24.571em;
+  margin-top: 2.429em;
+  background-image: url('/NapoleonOmeka/themes/Napoleon-Theme/images/image-placeholder-550.jpg');
+  background-repeat: no-repeat;
+  background-size: 500px auto;
+  background-position: center center;
+}
+
+.objects {
+  left: -0.3073770492%;
+  z-index: 25;
+}
+
+.site-navigation .about {
+  left: -0.3676470589%;
+  z-index: 21;
+}
+
+.social-container {
+  float: left;
+  width: 23.5416666666%;
+  height: 20.429em;
+  margin-left: 8.4375%;
+}
+
+.social-links {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 3.071em;
+  margin-top: 14.929em;
+}
+
+.subtitle {
+  position: absolute;
+  top: 5.25em;
+  left: 0;
+  z-index: 34;
+  font: 1.143em/1.38 Aller;
+  color: rgb(92, 150, 210);
+}
+
+.teammate1 {
+  width: 14.214em;
+  height: 14.214em;
+  margin: 0 auto;
+  border-radius: 150px;
+  background: url('/NapoleonOmeka/themes/Napoleon-Theme/images/Kate_2_small_square.jpg') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.teammate1-contents {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 17;
+  width: 250px;
+  height: 17.857em;
+  margin: 2em 20px 0 5%;
+}
+
+.teammate2 {
+  width: 14.214em;
+  height: 14.214em;
+  margin: 0 auto;
+  border-radius: 150px;
+  background: url('/NapoleonOmeka/themes/Napoleon-Theme/images/Mark_small.jpg') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.teammate2-contents {
+  position: relative;
+  float: left;
+  z-index: 13;
+  width: 250px;
+  height: 17.857em;
+  margin: 2em 20px 0 3.7461%;
+}
+
+.teammate3 {
+  width: 14.214em;
+  height: 14.214em;
+  margin: 0 auto;
+  border-radius: 150px;
+  background: url('/NapoleonOmeka/themes/Napoleon-Theme/images/kate_astbury_square.jpg') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.teammate3-contents {
+  position: relative;
+  float: left;
+  z-index: 9;
+  width: 250px;
+  height: 17.857em;
+  margin: 2em 0 0 36px;
+}
+
+.timeline {
+  left: -0.5770617938%;
+  z-index: 23;
+}
+
+.twitter {
+  margin-left: 12.5%;
+}
+
+.about-3 {
+  position: relative;
+  width: 100%;
+  height: 34em;
+  margin: 0 auto;
+  background-image: url('/NapoleonOmeka/themes/Napoleon-Theme/images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.image-1 {
+  float: left;
+  width: 200px;
+  margin-top: 2.429em;
+}
+
+.image-2 {
+  float: right;
+  width: 120px;
+  margin-right: 0.12155%;
+}
+
+.site-navigation ._container-2 {
+  position: absolute;
+  top: 0;
+  left: -0.0040167096%;
+  z-index: 20;
+  width: 11.825192802%;
+}
+
+.site-navigation ._container-3 {
+  position: relative;
+  float: left;
+  width: 13.1105398457%;
+  margin-left: 16.94865%;
+}
+
+.site-navigation ._container-4 {
+  position: relative;
+  float: left;
+  width: 16.7095115681%;
+  margin-left: 2.82312%;
+}
+
+.site-navigation ._container-5 {
+  position: relative;
+  float: left;
+  width: 15.6812339331%;
+  margin-left: 1.53928%;
+}
+
+.site-navigation ._container-6 {
+  position: relative;
+  float: left;
+  width: 14.1388174807%;
+  margin-left: 2.82312%;
+}
+
+.site-navigation ._container-7 {
+  position: relative;
+  float: left;
+  width: 11.3110539845%;
+  margin-left: 4.86996%;
+}
+
+/*-------- Timeline Page Specific Settings  -----------*/
+
+.page-timeline {
+  color: rgb(58, 58, 58);
+}
+
+.summary-contents {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 25.714em;
+  margin-top: 3.786em;
+}
+
+.summary-text {
+  float: left;
+  clear: both;
+  width: 100%;
+  min-height: 14.286em;
+  margin-top: 0.929em;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(58, 58, 58);
+}
+
+.summary-contents article {
+  float: left;
+  width: 59.4791666666%;
+  height: 25.714em;
+}
+
+.weekly-objects a {
+  left: 0;
+  font-family: 'Aller Light';
+  font-size: 1em;
+  font-weight: Regular;
+  color: rgb(58, 58, 58);
+}
+
+.weekly-objects h2 {
+  position: absolute;
+  top: 0;
+  left: -0.1221498372%;
+  z-index: 9;
+  font-family: 'Dustismo Roman';
+  font-weight: Regular;
+}
+
+.weekly-objects li {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 1.357em;
+}
+
+.weekly-objects ul {
+  position: relative;
+  float: left;
+  width: 56.0975609756%;
+  height: 4.071em;
+  margin-top: 3.357em;
+}
+
+.weekly-objects {
+  position: relative;
+  float: left;
+  width: 31.9791666666%;
+  height: 7.429em;
+  margin-left: 8.54167%;
+}
+
+.weekly-objects ._container-11 {
+  top: 2.714em;
+  z-index: 7;
+}
+
+.weekly-objects ._container-12 {
+  top: 1.357em;
+  z-index: 5;
+}
+
+.weekly-objects ._container-14 {
+  top: 0;
+  z-index: 3;
+}
+
+.weekly-objects ._text-1 {
+  z-index: 6;
+}
+
+.weekly-objects ._text-2 {
+  z-index: 4;
+}
+
+.weekly-objects ._text-3 {
+  z-index: 2;
+}
+
+.weekly-timeline {
+  width: 960px;
+  height: 41.143em;
+  margin: 0 auto;
+}
+
+.embed-timeline {
+  float: left;
+  width: 100%;
+  height: 11.643em;
+  background-color: rgb(222, 222, 222);
+}
+
+.timeline-2 {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 48.714em;
+  background-color: rgba(92, 150, 210, 0.33);
+}
+
+/*----- General Setting for MastHead for every subPages------*/
+
+.masthead h2 {
+  margin: 0.84em auto 0;
+  font-family: 'Dustismo Roman';
+  font-weight: Regular;
+  text-align: center;
+}
+
+.masthead {
+  float: left;
+  width: 100%;
+  height: 5.857em;
+  border-bottom: 0.214em solid rgb(225, 127, 0);
+  background-color: rgb(50, 78, 107);
+}
