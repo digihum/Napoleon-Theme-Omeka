@@ -4,6 +4,56 @@ body {
   color: rgb(200, 200, 200);
 }
 
+h1 {
+  position: absolute;
+  top: 0.9em;
+  left: 0;
+  z-index: 35;
+  padding: 0.025em;
+  font: 2.857em/1.38 DustismoRoman;
+  color: rgb(225, 127, 0);
+}
+
+h2 {
+  font-size: 1.786em;
+  line-height: 1.38;
+}
+
+h3 {
+  font-size: 0.929em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(255, 181, 86);
+}
+
+h4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 174px;
+  margin: 0 auto;
+  font: 0.857em/1.38 Aller;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+h5 {
+  margin: 0 auto;
+  font-size: 0.786em;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(253, 218, 135);
+}
+
+h6 {
+  float: left;
+  clear: both;
+  font-size: 0.786em;
+  line-height: 1.38;
+  color: rgb(58, 58, 58);
+}
+
 .page-index {
   font-family: Aller-Light;
   font-weight: normal;
@@ -133,6 +183,9 @@ article button:active {
   box-shadow: 0 2px 0 #84261a;
 }
 
+.location h2,
+.object-description h2,
+.related-links h2,
 article h2 {
   float: left;
   font-family: 'Dustismo Roman';
@@ -193,47 +246,7 @@ footer input {
   color: rgb(0, 0, 0);
 }
 
-h1 {
-  position: absolute;
-  top: 0.9em;
-  left: 0;
-  z-index: 35;
-  padding: 0.025em;
-  font: 2.857em/1.38 DustismoRoman;
-  color: rgb(225, 127, 0);
-}
 
-h2 {
-  font-size: 1.786em;
-  line-height: 1.38;
-}
-
-h3 {
-  font-size: 0.929em;
-  line-height: 1.38;
-  text-align: center;
-  color: rgb(255, 181, 86);
-}
-
-h4 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 174px;
-  margin: 0 auto;
-  font: 0.857em/1.38 Aller;
-  text-align: center;
-  color: rgb(0, 0, 0);
-}
-
-h5 {
-  margin: 0 auto;
-  font-size: 0.786em;
-  line-height: 1.38;
-  text-align: center;
-  color: rgb(253, 218, 135);
-}
 
 header {
   float: left;
@@ -326,6 +339,7 @@ textarea {
 
 .about-text p,
 .logo-collaborators p,
+.object-description-2 p,
 .summary-text p,
 div article p {
   margin-bottom: 1em;
@@ -785,12 +799,13 @@ div article p {
   margin-left: 4.86996%;
 }
 
-/*-------- Timeline Page Specific Settings  -----------*/
+/*-------- subPages body colour settings  -----------*/
 
-.page-timeline {
+.page-timeline .page-objects{
   color: rgb(58, 58, 58);
 }
 
+/*-------- Timeline Page Specific Settings  -----------*/
 .summary-contents {
   float: left;
   clear: both;
@@ -904,6 +919,186 @@ div article p {
   background-color: rgba(92, 150, 210, 0.33);
 }
 
+/*----- Objects Page Specific Settings------*/
+
+.object h2 {
+  position: absolute;
+  top: 0;
+  left: 28.4441489361%;
+  z-index: 24;
+  font-family: 'Dustismo Roman';
+}
+
+.object img {
+  float: left;
+  clear: both;
+  width: 470px;
+  margin-top: 0.071em;
+}
+
+.object nav {
+  position: relative;
+  float: left;
+  z-index: 23;
+  width: 99.8706210191%;
+  height: 1.571em;
+  margin-top: 1.857em;
+}
+
+.object-contents h4 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 17;
+  width: 15.0925925925%;
+  height: 1.143em;
+  margin-top: 0.714em;
+}
+
+.object-description button {
+  float: left;
+  clear: both;
+  width: 59.9992340686%;
+  height: 2.071em;
+  margin-top: 1.786em;
+  border-bottom-width: 0.143em;
+  border-bottom-color: rgb(225, 127, 0);
+  border-radius: 0.214em;
+  background-color: rgb(255, 181, 86);
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+}
+
+.object-description button:active {
+  border-bottom-width: 0;
+}
+
+.object-location img {
+  float: left;
+  width: 470px;
+}
+
+.object-prev-next a {
+  font-size: 1.143em;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.object {
+  position: relative;
+  float: left;
+  z-index: 25;
+  width: 48.9583333333%;
+  height: 28.571em;
+  margin-top: 3.357em;
+}
+
+.object-contents {
+  position: relative;
+  width: 960px;
+  height: 64.5em;
+  margin: 0 auto;
+}
+
+.object-description .object-description {
+  float: left;
+  clear: both;
+  width: 100%;
+  min-height: 43.357em;
+  margin-top: 0.929em;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(58, 58, 58);
+}
+
+.object-location {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 12em;
+  margin-top: 0.429em;
+}
+
+.object-permission {
+  width: 98.0891719745%;
+}
+
+.object-description-1 {
+  position: absolute;
+  top: 3.357em;
+  left: 57.4999999999%;
+  z-index: 12;
+  width: 42.5%;
+  height: 54.571em;
+}
+
+.objects-2 {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 78.071em;
+  background-color: rgba(92, 150, 210, 0.33);
+}
+
+.related-links {
+float: left;
+}
+
+.related-links li {
+  float: left;
+  width: 100%;
+  height: 1.143em;
+}
+
+.related-links ul {
+  float: left;
+  clear: both;
+  width: 66.6666666666%;
+  height: 1.143em;
+  margin-top: 0.786em;
+}
+
+.related-links a,
+h4 a {
+  float: left;
+  font-family: Aller;
+  font-size: 0.857em;
+  color: rgb(0, 0, 0);
+}
+
+.related-links-1 {
+  width: 37.7777777777%;
+  height: 4.357em;
+  margin: 26.357em 0 0 8.54167%;
+}
+
+section button {
+  border-bottom-style: solid;
+}
+
+.location {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 15;
+  width: 48.9583333333%;
+  height: 14.857em;
+  margin-top: 2.357em;
+}
+
+.next {
+  float: right;
+}
+
+.prev {
+  float: left;
+}
+
+
+
+
+
+
 /*----- General Setting for MastHead for every subPages------*/
 
 .masthead h2 {
@@ -920,3 +1115,5 @@ div article p {
   border-bottom: 0.214em solid rgb(225, 127, 0);
   background-color: rgb(50, 78, 107);
 }
+
+
