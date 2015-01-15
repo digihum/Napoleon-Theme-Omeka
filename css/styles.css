@@ -181,6 +181,9 @@ article button {
 
 article button:active {
   box-shadow: 0 2px 0 #84261a;
+  -ms-transform: translate(0px,7px); /* IE 9 */
+  -webkit-transform: translate(0px,7px); /* Chrome, Safari, Opera */
+  transform: translate(0px,7px); /* Standard syntax */
 }
 
 .location h2,
@@ -938,7 +941,7 @@ div article p {
 }
 
 .object nav {
-  position: relative;
+  position: static;
   float: left;
   z-index: 23;
   width: 99.8706210191%;
@@ -981,7 +984,7 @@ div article p {
 }
 
 .object-prev-next a {
-  font-size: 1.143em;
+  font-size: 0.9em;
   font-weight: 400;
   color: rgb(0, 0, 0);
 }
@@ -1293,6 +1296,7 @@ section button {
   margin: 0.84em auto 0;
   font-family: 'Dustismo Roman';
   font-weight: Regular;
+  font-size: 2em;
   text-align: center;
 }
 
