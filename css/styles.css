@@ -148,7 +148,7 @@ h6 {
 
 a {
   display: block;
-  position: absolute;
+  position: relative;
   top: 0;
   padding: 0.385em;
   font: 0.929em/1.38 Aller;
@@ -338,6 +338,7 @@ textarea {
 }
 
 .about-text p,
+.event-details p,
 .logo-collaborators p,
 .object-description-2 p,
 .summary-text p,
@@ -801,7 +802,7 @@ div article p {
 
 /*-------- subPages body colour settings  -----------*/
 
-.page-timeline .page-objects{
+.page-timeline .page-objects .page-events{
   color: rgb(58, 58, 58);
 }
 
@@ -965,10 +966,11 @@ div article p {
   border-bottom-color: rgb(225, 127, 0);
   border-radius: 0.214em;
   background-color: rgb(255, 181, 86);
-  font-size: 1em;
+  font-size: 0.9em;
   color: rgb(0, 0, 0);
 }
 
+.event-contents button:active,
 .object-description button:active {
   border-bottom-width: 0;
 }
@@ -1068,8 +1070,8 @@ h4 a {
 
 .related-links-1 {
   width: 37.7777777777%;
-  height: 4.357em;
-  margin: 26.357em 0 0 8.54167%;
+  height: 12em;
+  margin: 32em 0 0 8.54167%;
 }
 
 section button {
@@ -1092,6 +1094,105 @@ section button {
 
 .prev {
   float: left;
+}
+
+/*----- Events Page Specific Settings ---------*/
+
+.events-2 {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 22.929em;
+  background-color: rgba(92, 150, 210, 0.33);
+}
+
+.event-contents button {
+  float: left;
+  width: 23.5171696149%;
+  height: 2em;
+  margin: 5.063em 0 0 1.99382%;
+  border-bottom-width: 0.125em;
+  border-bottom-color: rgb(225, 127, 0);
+  border-radius: 0.188em;
+  background-color: rgb(255, 181, 86);
+  font-family: Aller;
+  font-size: 1.143em;
+  color: rgb(0, 0, 0);
+}
+
+.event-contents {
+  width: 960px;
+  height: 16.071em;
+  margin: 2.857em auto 0;
+}
+
+.event-details {
+  position: absolute;
+  top: 2.857em;
+  left: 0;
+  z-index: 4;
+  width: 99.8604040072%;
+  min-height: 9.286em;
+  font-size: 1em;
+  line-height: 1.38;
+  color: rgb(58, 58, 58);
+}
+
+.event-node {
+  position: relative;
+  float: left;
+  width: 59.4400364203%;
+  height: 16.071em;
+  margin-left: 6.65365%;
+}
+
+.event-node h2 {
+  position: absolute;
+  top: 0;
+  left: -0.0027371764%;
+  z-index: 3;
+  font-family: 'Dustismo Roman';
+}
+
+.calendar {
+  position: relative;
+  float: left;
+  width: 80px;
+  height: 8.071em;
+}
+
+.date {
+  float: left;
+  margin: 0.25em 0 0 20.52469%;
+  font: 400 2.857em/1.38 Aller;
+  color: rgb(255, 255, 255);
+}
+
+.date-bg {
+  position: absolute;
+  top: 2.714em;
+  left: 0;
+  z-index: 7;
+  width: 81px;
+  height: 5.357em;
+  background-color: rgb(92, 150, 210);
+}
+
+.month {
+  float: left;
+  margin: 0.25em 0 0 30.55556%;
+  font: normal 1.429em/1.38 Aller;
+  color: rgb(160, 207, 255);
+}
+
+.month-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 81px;
+  height: 2.714em;
+  background-color: rgb(50, 78, 107);
 }
 
 
