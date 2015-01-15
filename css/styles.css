@@ -802,7 +802,7 @@ div article p {
 
 /*-------- subPages body colour settings  -----------*/
 
-.page-timeline .page-objects .page-events .page-links{
+.page-timeline .page-objects .page-events .page-links .page-search-result{
   color: rgb(58, 58, 58);
 }
 
@@ -1254,6 +1254,37 @@ section button {
 }
 
 
+/* ------- Search Result Page Specific Settings ------- */
+
+.searchresults {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 14em;
+  background-color: rgba(92, 150, 210, 0.33);
+}
+
+.searchresults input {
+  width: 28.4166666666%;
+  margin: 0px auto;
+  position: relative;
+  font-family: Helvetica;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  top: 2em;
+}
+
+.searchresults input:hover {
+  border-bottom: 0.154em solid rgb(225, 127, 0);
+}
+
+.searchresults p {
+  top: 4em;
+  width: 50%;
+  position: relative;
+  margin: 20px auto;
+}
 
 
 /*----- General Setting for MastHead for every subPages------*/
