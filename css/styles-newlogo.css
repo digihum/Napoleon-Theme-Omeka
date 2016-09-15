@@ -3014,7 +3014,7 @@ em {
   }
 
   header {
-    height: 23em;
+    height: 25em;
   }
 
   header img {
@@ -3024,7 +3024,7 @@ em {
   }
 
   header input {
-    top: 15.154em;
+    top: 17.154em;
     left: 0;
     right: 0;
     width: 196px;
@@ -3033,7 +3033,7 @@ em {
   }
 
   header nav {
-    top: 9.417em;
+    top: 11.417em;
     left: 0;
     right: 0;
     width: 92.8571428571%;
@@ -3043,7 +3043,7 @@ em {
   }
 
   nav li {
-    height: 2.25em;
+    height: 2em;
   }
 
   nav ul {
@@ -3294,7 +3294,7 @@ em {
   }
 
   .index .header {
-    height: 20.5em;
+    height: 22.5em;
   }
 
   .links-page {
@@ -3482,7 +3482,7 @@ em {
   }
 
   .site-navigation {
-  	top:11em;
+  	top:13em;
   }
 
   .site-navigation ._container-2 {
