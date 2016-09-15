@@ -105,7 +105,7 @@ $m = (date('m') - 1);
     <section class="header">
       <div class="header-content">
         <a href="/" ><h1 class="site-title index"><?php echo __('THE LAST STAND'); ?></h1>
-        <p class="subtitle index"><?php echo __('NAPOLEON&#8217S 100 DAYS IN 100 OBJECTS'); ?></p></a>
+        <p class="subtitle index"><?php echo __('NAPOLEON&#8217S 100 DAYS IN 100 OBJECTS <br /> FEBRUARY - JULY 1815'); ?></p></a>
         <img class="logo-warwick" alt="University of Warwick Logo" src="/themes/Napoleon-Theme/images/warwick_external_mono.svg" data-rimage data-src="/themes/Napoleon-Theme/images/warwick_external_mono.svg" >
         <nav class="site-navigation">
           <ul class="clearfix">
@@ -119,10 +119,10 @@ $m = (date('m') - 1);
               <a href="/timeline" class="timeline">TIMELINE</a>
             </li>
             <li class="_container-5">
-              <a href="/items/browse" class="objects">OBJECTS</a>
+              <a href="/items/browse?sort_field=id&sort_dir=a" class="objects">OBJECTS</a>
             </li>
             <li class="_container-6">
-              <a href="/events" class="events">EVENTS</a>
+              <a href="/events" class="events">CONCERT</a>
             </li>
             <li class="_container-7">
               <a href="/links" class="links">LINKS</a>

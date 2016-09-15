@@ -2086,6 +2086,20 @@ em {
   padding-bottom: 30px;
 }
 
+.lean-slider-prev,
+.lean-slider-next,
+#slider-direction-nav a{
+	display: none !important;
+}
+
+.object-date:hover {
+	color: #ffe100;
+}
+
+.hz-weekly-link:hover {
+	color: #a77b00;
+}
+
 @media(max-width: 956px) {
   logo-warwick {
     height: 180px;

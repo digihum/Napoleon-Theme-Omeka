@@ -79,7 +79,7 @@
 
 			var objectDate = new Date(dateNow.getFullYear() , itemDate[1] - 1 , itemDate[0]);
 
-			if(objectDate <= dateNow){ 
+			if(objectDate != dateNow){ 
 				var currentTab = "";
 
 				if((itemDate[0] == dateNow.getDate()) && (itemDate[1] == dateNow.getMonth() + 1)){
@@ -237,11 +237,153 @@ jsonObject.done(function(data){
 	});
 	}
 	
-	
 
 
+var timelineArr = [];
 
 function loadTimeline(){
+	var objectIndex = 0;
+	 var typeId = "";
+	var stringObject = "";
+    var flag = "";
+	var loadingString = "";
+	var objectList = "";
+	var colId = "";
+	var colUrl  = "";
+	var colDesc = "";
+	var colDate = "";
+	var colTitle = "";
+	var colSub = "";
+	
+	
+		
+	var jsonObject = $.getJSON("/api/collections", function(result) {
+	
+	$.each(result, function(index,field){
+			colId = field["id"];
+			colUrl = field["items"]["url"];
+			$.each(field["element_texts"], function(index, value){
+			   	var elementName = value["element"]["name"];
+			   	switch(elementName){
+			  	 case "Title":colTitle = value["text"];
+				 break;
+			  	 case "Date":dateString = value["text"]; 
+				 colDate = value["text"].split("/");
+				 break;
+			  	 case "Subject":colSub = value["text"];
+				 break;
+			   	 case "Description":colDesc = value["text"];
+				 break;
+			   }
+			});
+				colDate[0] *= 1;
+			colDate[1] *= 1;
+			colDesc = JSON.stringify(colDesc);
+			colDesc = colDesc.substr(1,colDesc.length - 2);
+			var tempDate = new Date(dateNow.getFullYear() , colDate[1] - 1 , colDate[0]);
+			if(tempDate != dateNow){
+			stringObject += flag + '{' + '"startDate":' + '"' + colDate[2] + ',' + colDate[1] + ',' + colDate[0] +	 '"' + ',' + '"endDate":' + '"' + colDate[2] + ',' + colDate[1] + ',' + colDate[0] + '"' + ',' + '"headline":'+ '"' + colTitle + '"' + ',' + '"text":'+ '"<div id=\'timeline-summary-wrapper' + colId + '\' class=\'timeline-summary-wrapper' + colId + '\' ><article class=\'weekly-summary clearfix\'><h2 class=\'weekly-summary-title' + colId + '\'>Summary for this week</h2><div class=\'summary-text\'><p class=\'summary' + colId + '\'>'+colDesc+'</p></div>' + '</article>' + '</div><div class=\'timeline-weekly-objects-wrapper' + colId + '\' ><h2>Objects for this Week</h2><br /><br /><ul class=\'timeline-weekly-objects' + colId + '\'></ul></div>"' + '}';
+			flag = ","; 
+			}
+			
+	});
+	
+	});
+	jsonObject.done(function(data){
+		var jsonText = '{"timeline": {"headline":"Napoleon Wars", "type":"default","text":"", "date": [' + stringObject + ']' + '}}'; 
+	
+	var dataObject = jQuery.parseJSON(jsonText);
+	
+	var timelineJson =  createStoryJS({
+                    type:       'timeline',
+					 source:     dataObject,
+					 start_at_end: false,
+                    embed_id:   'embed-timeline'
+                });
+				
+				$("#slider-loading-wrapper").css("display","none");
+				getTimeLineObjects();
+	});
+
+}
+
+
+function getTimeLineObjects() {
+var itemId = "";
+var colId = "";
+var timelineIndex = 0;
+
+var jsonObject = $.getJSON("/api/items", function(result) {
+	
+	$.each(result, function(index,field){
+		itemId = field["id"];
+		if(field["collection"] != null){
+		colId = field["collection"]["id"];
+		$.each(field["element_texts"], function(index, value){
+			   var elementName = value["element"]["name"];
+			   
+			   switch(elementName){
+			  	 case "Title":itemTitle = value["text"];
+				 break;
+			  	 case "Date":dateString = value["text"]; 
+				 itemDate = value["text"].split("/");
+				 break;
+			  	 case "Subject":itemSub = value["text"];
+				 break;
+			   	 case "Description":itemDesc = value["text"];
+				 break;
+				 case "Contributor":itemContributor = value["text"];
+				 break;
+				 case "Source":itemSource = value["text"];
+				 break;
+				 case "Relation":itemRelated = value["text"];
+				 break;
+				 case "Rights":itemRights = value["text"];
+				 break;
+			   }
+		});
+		
+		timelineArr[timelineIndex] = colId;
+		timelineIndex++;
+		timelineArr[timelineIndex] = itemId;
+		timelineIndex++;
+		timelineArr[timelineIndex] = itemTitle;
+		timelineIndex++;
+		}
+	});
+	
+}); jsonObject.done(function(data){
+	timeIndex = setInterval(displayTimelimeObjects,30);
+});
+
+
+}
+
+var timelineTimerIndex = 0;
+var tempColId = "";
+var tempItemId = "";
+var tempItemTitle = "";
+
+function displayTimelimeObjects(){
+	if(timelineArr[timelineTimerIndex] != null && $(".timeline-summary-wrapper" + timelineArr[timelineTimerIndex]).length > 0){
+				tempColId = timelineArr[timelineTimerIndex];
+				timelineTimerIndex++;
+				tempItemId = timelineArr[timelineTimerIndex];
+				timelineTimerIndex++;
+				tempItemTitle = timelineArr[timelineTimerIndex];
+				timelineTimerIndex++;
+		
+	 $(".timeline-weekly-objects" + tempColId).append("<li><a href='items/show/" + tempItemId + "'>" + tempItemTitle + "</a></li>");
+	}
+	
+	if(timelineTimerIndex >= timelineArr.length){clearInterval(timeIndex);}
+}	
+
+
+
+
+
+/*function loadTimeline(){
 	 var objectIndex = 0;
 	 var typeId = "";
 	var stringObject = "";
@@ -284,7 +426,7 @@ function loadTimeline(){
 			var tempDate = new Date(dateNow.getFullYear() , colDate[1] - 1 , colDate[0]);
 			
 			if(tempDate <= dateNow){
-			stringObject += flag + '{' + '"startDate":' + '"' + colDate[2] + ',' + colDate[1] + ',' + colDate[0] +	 '"' + ',' + '"endDate":' + '"' + colDate[2] + ',' + colDate[1] + ',' + colDate[0] + '"' + ',' + '"headline":'+ '"' + colTitle + '"' + ',' + '"text":'+ '"<div class=\'timeline-summary-wrapper' + colId + '\' ><article class=\'weekly-summary clearfix\'><h2 class=\'weekly-summary-title' + colId + '\'>Summary for this week</h2><div class=\'summary-text\'><p class=\'summary' + colId + '\'>'+colDesc+'</p></div>' + '</article>' + '</div><div class=\'timeline-weekly-objects-wrapper' + colId + '\' ><h2>Objects for this Week</h2><br /><br /><ul class=\'timeline-weekly-objects' + colId + '\'></ul></div>"' + '}';
+			stringObject += flag + '{' + '"startDate":' + '"' + colDate[2] + ',' + colDate[1] + ',' + colDate[0] +	 '"' + ',' + '"endDate":' + '"' + colDate[2] + ',' + colDate[1] + ',' + colDate[0] + '"' + ',' + '"headline":'+ '"' + colTitle + '"' + ',' + '"text":'+ '"<div id=\'timeline-summary-wrapper' + colId + '\' class=\'timeline-summary-wrapper' + colId + '\' ><article class=\'weekly-summary clearfix\'><h2 class=\'weekly-summary-title' + colId + '\'>Summary for this week</h2><div class=\'summary-text\'><p class=\'summary' + colId + '\'>'+colDesc+'</p></div>' + '</article>' + '</div><div class=\'timeline-weekly-objects-wrapper' + colId + '\' ><h2>Objects for this Week</h2><br /><br /><ul class=\'timeline-weekly-objects' + colId + '\'></ul></div>"' + '}';
 			flag = ","; 
 			objectList += '<li><a href="items/show/' +itemId + '" >' + itemTitle + '</a></li>';  
 			itemId = colId;
@@ -326,12 +468,13 @@ function loadTimeline(){
 	var timelineJson =  createStoryJS({
                     type:       'timeline',
 					 source:     dataObject,
-					 start_at_end: true,
+					 start_at_end: false,
                     embed_id:   'embed-timeline'
                 });
 				
 				//$(".weekly-objects-list").append(objectList);
 				$("#slider-loading-wrapper").css("display","none");
+				//alert("Test maintenance");
 				timelineTimer();
 				
 	});
@@ -343,6 +486,7 @@ var objIndex = 0;
 function timelineTimer(){
 var timeOut = setInterval(function()
 	{
+		//alert("index: " + objIndex + "link: " + objLinks[objIndex]);
 		//alert(itemId);
 		if($(".timeline-summary-wrapper" + itemId).length > 0){
 			if(objIndex < objTitles.length && $(".timeline-weekly-objects" + objCol[objIndex])) {
@@ -350,7 +494,8 @@ var timeOut = setInterval(function()
 				//$(".summary" + weeklyID[weeklyIndex]).html(weeklyDescription[weeklyIndex]);
 				objIndex++
 			}
-			
+			 
+			 
 			if(objIndex >= objTitles.length){
 			clearInterval(timeOut);
 			}
@@ -358,3 +503,4 @@ var timeOut = setInterval(function()
 		},500
 	);
 }
+*/

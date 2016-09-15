@@ -19,7 +19,7 @@
         <h2 class="introduction-title">The Exhibition</h2>
         <p class="introduction"><?php echo get_theme_option('Introduction Text'); ?> 
 </p>
-        <button id="redButton" onClick="window.location='#'; return:false;"><?php echo get_theme_option('Red Button'); ?></button>
+        <button id="redButton" onclick="location.href='/items/show/2';"><?php echo get_theme_option('Red Button'); ?></button>
       </article>
     </div>
   </section>
@@ -43,7 +43,7 @@
 <script>
   loadHomePage();
 </script>
-<!-- Capture latest object url, apply to red button -->
+<!-- Capture latest object url, apply to red button
 <script type="text/javascript">
     var newestLink = "";
     window.setTimeout(function(){
@@ -56,5 +56,5 @@
         node.attr('onClick', 'window.location="' + newestLink + '"');
     }, 1800);
 </script>
-<!-- End capture -->
+End capture -->
 <?php echo foot(); ?>

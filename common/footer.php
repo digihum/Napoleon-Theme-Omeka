@@ -12,7 +12,7 @@
       <div class="contact-contents clearfix">
         <h2 class="contact">Contact Us</h2>
         <div class="contact-form clearfix">
-          <p class="mailer">If you would like to get in touch with us, drop us an email<a onClick="javascript:window.open('mailto:100days@warwick.ac.uk?Subject=A%20Message%20From%20Napoleon%20Exhibition', 'mail');event.preventDefault()" href="100days@warwick.ac.uk"><i class="fa fa-envelope-o fa-5x"></i></a><br />We will get back to you in due course. In the mean time, check out today's object!</p>
+          <p class="mailer"><?php echo get_theme_option('Contact Us'); ?></p>
         </div>
       </div>
     </div>

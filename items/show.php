@@ -26,8 +26,9 @@ $nowDay = $nownowDate[1];
         <nav class="object-prev-next clearfix">
             <ul class="pager">
                 <li class="previous"><?php echo link_to_previous_item_show(); ?></li>
+                <li class="next"><?php echo link_to_next_item_show();  ?></li>
 
-<!-- Set Date-Gating to next-item link -->
+<!-- Set Date-Gating to next-item link
 <?php
 switch (true):
   
@@ -72,7 +73,7 @@ endswitch; ?>
         <!-- <h6 class="object-permission">Permission: <?php echo metadata('item', array('Dublin Core', 'License')); ?></h6> -->
       </div>
       <h4 class="link-to-weekly-summary clearfix">
-        <a href="/timeline">Go to Weekly Summaries</a>
+			<a href="/timeline" class="hz-weekly-link"><i class="fa fa-arrow-circle-left"></i> Read what else is happening</a>
       </h4>
       <div class="object-description object-description-1 clearfix">
         <h2 class="object-title"><?php echo metadata('item', array('Dublin Core', 'Title')); ?></h2>
