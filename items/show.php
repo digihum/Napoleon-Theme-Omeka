@@ -126,7 +126,7 @@ endswitch; ?>
  if(isset($_GET['item'])){$index = $_GET['item'];} 
  ?>
  <script>
- loadObjectPage(<?php echo $index; ?>);
+// loadObjectPage(<?php echo $index; ?>);
 </script>
 <!-- Adding social bookmarking -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54f6a22f2b66c80c" async="async"></script>
