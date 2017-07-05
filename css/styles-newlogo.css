@@ -3547,3 +3547,11 @@ em {
 	top: 0
 }
 }
+
+div .terms {
+    clear: both;
+    width: 100%;
+    height: auto !important;
+    border-top: 0.214em solid rgb(225, 127, 0);
+    background-color: rgb(50, 78, 107);
+}
