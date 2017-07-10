@@ -225,6 +225,8 @@
 
 
 jsonObject.done(function(data){
+	/* Work out which date the page should start on */
+
 	var sliderStartIndex = $('#slider').children().length - 1;
 	if($(".selected-object").index() >= 0){sliderStartIndex = $(".selected-object").index();}
 	 var slider = $('#slider').leanSlider({
@@ -282,8 +284,8 @@ function loadTimeline(){
 			colDesc = colDesc.substr(1,colDesc.length - 2);
 			var tempDate = new Date(dateNow.getFullYear() , colDate[1] - 1 , colDate[0]);
 			if(tempDate != dateNow){
-			stringObject += flag + '{' + '"startDate":' + '"' + colDate[2] + ',' + colDate[1] + ',' + colDate[0] +	 '"' + ',' + '"endDate":' + '"' + colDate[2] + ',' + colDate[1] + ',' + colDate[0] + '"' + ',' + '"headline":'+ '"' + colTitle + '"' + ',' + '"text":'+ '"<div id=\'timeline-summary-wrapper' + colId + '\' class=\'timeline-summary-wrapper' + colId + '\' ><article class=\'weekly-summary clearfix\'><h2 class=\'weekly-summary-title' + colId + '\'>Summary for this week</h2><div class=\'summary-text\'><p class=\'summary' + colId + '\'>'+colDesc+'</p></div>' + '</article>' + '</div><div class=\'timeline-weekly-objects-wrapper' + colId + '\' ><h2>Objects for this Week</h2><br /><br /><ul class=\'timeline-weekly-objects' + colId + '\'></ul></div>"' + '}';
-			flag = ","; 
+				stringObject += flag + '{' + '"startDate":' + '"' + colDate[2] + ',' + colDate[1] + ',' + colDate[0] +	 '"' + ',' + '"endDate":' + '"' + colDate[2] + ',' + colDate[1] + ',' + colDate[0] + '"' + ',' + '"headline":'+ '"' + colTitle + '"' + ',' + '"text":'+ '"<div id=\'timeline-summary-wrapper' + colId + '\' class=\'timeline-summary-wrapper' + colId + '\' ><article class=\'weekly-summary clearfix\'><h2 class=\'weekly-summary-title' + colId + '\'>Summary for this week</h2><div class=\'summary-text\'><p class=\'summary' + colId + '\'>'+colDesc+'</p></div>' + '</article>' + '</div><div class=\'timeline-weekly-objects-wrapper' + colId + '\' ><h2>Objects for this Week</h2><br /><br /><ul class=\'timeline-weekly-objects' + colId + '\'></ul></div>"' + '}';
+				flag = ","; 
 			}
 			
 	});
@@ -296,9 +298,10 @@ function loadTimeline(){
 	
 	var timelineJson =  createStoryJS({
                     type:       'timeline',
-					 source:     dataObject,
-					 start_at_end: false,
-                    embed_id:   'embed-timeline'
+					source:     dataObject,
+					start_at_end: false,
+                    embed_id:   'embed-timeline',
+                    hash_bookmark: true
                 });
 				
 				$("#slider-loading-wrapper").css("display","none");

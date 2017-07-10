@@ -14,6 +14,13 @@ $nownowDate = explode("/", $nowDate);
 $nowYear = $nownowDate[2];
 $nowMonth = $nownowDate[0];
 $nowDay = $nownowDate[1];
+
+#Create a deep link to correct week on the timeline
+
+$collection =  get_collection_for_item($item);
+$collection_title = metadata($collection, array('Dublin Core', 'Title'));
+$week_number = substr($collection_title,5);
+
 ?>
 <!-- End Break Dates -->
 <div class="page-objects">
@@ -73,7 +80,7 @@ endswitch; ?>
         <!-- <h6 class="object-permission">Permission: <?php echo metadata('item', array('Dublin Core', 'License')); ?></h6> -->
       </div>
       <h4 class="link-to-weekly-summary clearfix">
-			<a href="/timeline" class="hz-weekly-link"><i class="fa fa-arrow-circle-left"></i> Read what else is happening</a>
+			<a href="/timeline/#<?php echo $week_number ?>" class="hz-weekly-link"><i class="fa fa-arrow-circle-left"></i> Read what else is happening</a>
       </h4>
       <div class="object-description object-description-1 clearfix">
         <h2 class="object-title"><?php echo metadata('item', array('Dublin Core', 'Title')); ?></h2>
