@@ -6,8 +6,22 @@
         <p class="about-index-desc"><?php echo get_theme_option('Short About Us'); ?></p>
       </div>
       <div class="social-container clearfix">
-        <h2 class="twitter-feed-title">Twitter</h2>
-        <div id="tweecool"></div>        
+        <h2 class="twitter-feed-title">Further Information</h2>
+        <div id="further-menu">
+          <ul><li><a href="about">About</li>
+            <li>
+              <a href="terms">Terms and Conditions</a>
+</li>
+<li>
+          <a href="#" data-cc="c-settings">Cookie Settings</a>
+          </li>
+          <li>
+            <a href="https://warwick.ac.uk/privacy/">Privacy Policy</a>
+<li>
+          <a href="accessibility">Accessibility</a>
+</li>
+</ul>
+        </div>        
       </div>
       <div class="contact-contents clearfix">
         <h2 class="contact">Contact Us</h2>
