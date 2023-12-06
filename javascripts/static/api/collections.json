@@ -1,0 +1,1893 @@
+[
+    {
+        "id": 1,
+        "url": "https://100days.org.uk/api/collections/1",
+        "public": true,
+        "featured": false,
+        "added": "2015-02-17T15:08:51+00:00",
+        "modified": "2015-02-22T00:35:42+00:00",
+        "owner": {
+            "id": 1,
+            "url": "https://100days.org.uk/api/users/1",
+            "resource": "users"
+        },
+        "items": {
+            "count": 1,
+            "url": "https://100days.org.uk/api/items?collection=1",
+            "resource": "items"
+        },
+        "element_texts": [
+            {
+                "html": false,
+                "text": "Week 0",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 50,
+                    "url": "https://100days.org.uk/api/elements/50",
+                    "name": "Title",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "10 / 02/1815",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 40,
+                    "url": "https://100days.org.uk/api/elements/40",
+                    "name": "Date",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": true,
+                "text": "In 1814, following the disastrous Russian Campaign in the winter of 1812-13, the catastrophic defeat at Leipzig in October 1813, and the dogged progress made by Wellington against French troops in the Iberian peninsula after 1812, Napoleon’s spectacular military successes seemed at an end, as did the willingness of the French people to tolerate the privations of war and conscription. As Prussian, Russian, and Austro-Hungarian troops threatened France from the North and East, Wellington’s forces brought additional pressure on the South. And, while Napoleon sought to mobilize his army, his commanders increasingly recognised that there was little point in continuing their resistance to the ‘Allies’. <br /><br />At the end of March 1814, the troops defending Paris surrendered. On 6 April his Generals told Napoleon that is was over, and he abdicated. In the Treaty of Fontainebleau signed five days later, Napoleon was allowed to retain the courtesy title ‘Emperor’, but was consigned to the isle of Elba, off the Italian coast, over which he was accorded sovereignty. He was also allowed to keep 400 troops. On his journey into exile he was initially welcomed by crowds, but as he approached the south of France, the public mood became more hostile and there were points at which Napoleon feared for his life. He arrived on Elba on 4 May. Napoleon remained on Elba for a little less than ten months. The restored king of France, Louis XVIII, first refused to pay the pension that had been agreed at Fontainebleau and, in December, he confiscated all Napoleon’s personal property in France. <br /><br />At the same time rumours from Vienna, where the Congress had convened to reach a post-war settlement amongst the Great Powers, suggested that Napoleon would be removed from Elba, probably to the isle of St Helena, or assassinated. Plans for his removal were even discussed in the French press in mid-November. It also became clear that Austria would not permit his wife, Marie Therese, and their son to join him, which in turn meant that Austria would have no interest in preventing his removal. His intelligence from France reported the evaporation of confidence in Louis, and extensive support for Napoleon in the army – although, as he was acutely aware, popular support for his rule had evaporated on his period of rule and on his personal integrity following his defeat in 1814. Napoleon began to plan his escape. He considered whether he should wait until the disbanding of the Congress of Vienna, so as to make allied cooperation more difficult, but it would have been difficult to be sure that he would not have been disposed of in that process.",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 41,
+                    "url": "https://100days.org.uk/api/elements/41",
+                    "name": "Description",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "Mark Philp",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 37,
+                    "url": "https://100days.org.uk/api/elements/37",
+                    "name": "Contributor",
+                    "resource": "elements"
+                }
+            }
+        ],
+        "extended_resources": []
+    },
+    {
+        "id": 2,
+        "url": "https://100days.org.uk/api/collections/2",
+        "public": true,
+        "featured": false,
+        "added": "2015-02-17T15:09:29+00:00",
+        "modified": "2015-03-05T09:21:31+00:00",
+        "owner": {
+            "id": 1,
+            "url": "https://100days.org.uk/api/users/1",
+            "resource": "users"
+        },
+        "items": {
+            "count": 7,
+            "url": "https://100days.org.uk/api/items?collection=2",
+            "resource": "items"
+        },
+        "element_texts": [
+            {
+                "html": false,
+                "text": "Week 1",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 50,
+                    "url": "https://100days.org.uk/api/elements/50",
+                    "name": "Title",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": true,
+                "text": "<strong>23 February 1815 – 1 March 1815</strong> <br /><br />Napoleon managed to put together a small flotilla of seven boats. These sufficed to carry his troops, which comprised the 400 Guard together with additional recruits who had gravitated to Elba once Napoleon was there, and probably amounted to some 6-700 troops in all. He boarded his ship, the Inconstant, at Portoferráio on Elba on Sunday 26 February 1815, only to find that the wind had died, so that the ships had to be rowed out of the harbour. They did not sail until after midnight, and the next day had to slip though the rather incompetent surveillance of both the British and French. On embarking he had declared ‘The die is cast’ – a clear recognition of the gamble he was taking. He had to count on the French people rising to welcome him, and that the French army would switch their loyalties before a serious confrontation destroyed him or turned him from a liberating, to an invading force.",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 41,
+                    "url": "https://100days.org.uk/api/elements/41",
+                    "name": "Description",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "23/02/1815",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 40,
+                    "url": "https://100days.org.uk/api/elements/40",
+                    "name": "Date",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "Mark Philp",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 39,
+                    "url": "https://100days.org.uk/api/elements/39",
+                    "name": "Creator",
+                    "resource": "elements"
+                }
+            }
+        ],
+        "extended_resources": []
+    },
+    {
+        "id": 3,
+        "url": "https://100days.org.uk/api/collections/3",
+        "public": true,
+        "featured": false,
+        "added": "2015-02-19T11:52:09+00:00",
+        "modified": "2015-03-05T11:57:22+00:00",
+        "owner": {
+            "id": 2,
+            "url": "https://100days.org.uk/api/users/2",
+            "resource": "users"
+        },
+        "items": {
+            "count": 7,
+            "url": "https://100days.org.uk/api/items?collection=3",
+            "resource": "items"
+        },
+        "element_texts": [
+            {
+                "html": false,
+                "text": "Week 2",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 50,
+                    "url": "https://100days.org.uk/api/elements/50",
+                    "name": "Title",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": true,
+                "text": "<strong>2 March 1815 – 8 March 1815</strong><br /><br />The small flotilla of ships arrived off the French Coast on 1 March, anchored in Golfe Juan and a landing was made between Cannes and Antibes. Almost immediately a small detachment of his troops were captured by the local guard and taken to Antibes. Nonetheless, Napoleon stayed ashore and insisted that his troops resist any armed combat. His own 'assault' came in the form of three Proclamations: to the French people denying the legitimacy of the Bourbon monarchy; to the French army to rally round and liberate France; and one signed by officers of the Imperial Guard, written to the generals and officers of the army, to treat the white cockade of the Bourbons as a badge of shame.<br /><br />Liberty and constitutionalism were not appealed to; military glory and, for the people, the expulsion of their enemies, were the watchwords. The prevailing tone was one of bitterness at what Napoleon saw as his betrayal at Paris in 1814, and an appeal to restore France’s greatness. He also desperately wanted to return at the head of and in the name of the French people, but he was wholly uncertain of whether that was in fact feasible. Indeed, he chose his route North to avoid areas where he was doubtful of people’s loyalties. But in the opening week he caught elements of the mood of the people that encouraged him to reinstate the tricolour flag, and as he moved North found a shift towards a popular, almost Jacobin fervour of anti-monarchism. As Napoleon’s biographer, historian Philip Dwyer points out, 'At Lyons (8 March), it looked as though the spirit of 1789 and indeed of 1793 was alive and well'.<br /><br />On 5 March, Colonel Marie Antoine de Reiset, an officer in the King’s bodyguard at the Tuilleries wrote in his journal: 'An astounding piece of news arrived yesterday. We learnt, by telegraph, that Bonaparte had landed at Cannes, near Fréjus.' A sealed dispatch was delivered and passed to the King: 'The King, who is very unwell, is at present suffering from an attack of gout, which principally affects his hands, so such so that he had great difficulty in opening the envelope. Having read the contents he remained silent, then spent several moments with his head in his hands, deep in thought.' Two days later the news reached the Congress of Vienna in Austria.<br /><br />These opening days of Napoleon’s campaign were anxious ones. There was no guarantee that his reception would be welcoming. Six days after landing, he faced the first major loyalist force sent to halt his progress at Laffrey, just south of Grenoble. The commander of the Royalist troops, General Lessard, reputedly gave the order to fire. Napoleon, according to legend, dismounted, strode towards the troops, and baring his chest, cried: 'Soldats ! je suis votre Empereur. Ne me reconnaissez-vous pas? …il en est un parmi vous qui veuille tuer son général, me voilà!' The soldiers’ response was to shout 'Vive l'empereur'. The following day he was welcomed into Grenoble, later commenting: 'Before Grenoble I was an adventurer. At Grenoble I became a reigning Prince again.'<br /><br />Sources:<br />Anthony Brett-James, <em>The Hundred Days: Napoleon's Last Campaign from Eyewitness Accounts</em> (Macmillan, 1964), p. 3<br />Philip Dwyer,<em> Citizen Emperor</em> (Bloomsbury, 2013), p. 523.<br /><br />",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 41,
+                    "url": "https://100days.org.uk/api/elements/41",
+                    "name": "Description",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "Mark Philp",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 39,
+                    "url": "https://100days.org.uk/api/elements/39",
+                    "name": "Creator",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "02/03/ 1815",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 40,
+                    "url": "https://100days.org.uk/api/elements/40",
+                    "name": "Date",
+                    "resource": "elements"
+                }
+            }
+        ],
+        "extended_resources": []
+    },
+    {
+        "id": 4,
+        "url": "https://100days.org.uk/api/collections/4",
+        "public": true,
+        "featured": false,
+        "added": "2015-02-19T11:53:00+00:00",
+        "modified": "2015-03-26T12:42:27+00:00",
+        "owner": {
+            "id": 2,
+            "url": "https://100days.org.uk/api/users/2",
+            "resource": "users"
+        },
+        "items": {
+            "count": 7,
+            "url": "https://100days.org.uk/api/items?collection=4",
+            "resource": "items"
+        },
+        "element_texts": [
+            {
+                "html": false,
+                "text": "Week 3",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 50,
+                    "url": "https://100days.org.uk/api/elements/50",
+                    "name": "Title",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": true,
+                "text": "<strong>9 March 1815 – 15 March 1815</strong><br /><br />After reaching Grenoble without fighting, Napoleon faced his two most serious threats: an army under the Comte d'Artois assembled at Lyon, and then a major force under Marshall Ney: the latter seemed committed to ending his progress, having promised Louis that he would bring his former commander back to Paris in a cage. When Napoleon left Grenoble for Lyons his troops had swelled to 4,000 men. D'Artois abandoned Lyons and melted away, allowing Napoleon to enter and to lead some 14,000 men on heading North to meet Ney, who commanded a far smaller force. In a dramatic volte face on 14 March, Ney wrote to Napoleon pledging his support, and the route to Paris was thrown wide open.<br /><br />News of Napoleon's landing reached Vienna on 11 March. Lord Clancarty wrote to Lord Castlereagh, the British foreign secretary, on the same day: 'We were at Court the night of the arrival of Burghersh’s dispatch, containing the news of Buonaparte’s flight; and though there was every attempt to conceal apprehension under the masque of unconcern, it was not difficult to perceive that fear was predominant in all'. The Congress of Vienna recovered from its initial shock at the news, convened a meeting, and on March 13 the Great Powers proclaimed Napoleon an outlaw; on 25 March, after much deliberation, they agreed to bind themselves to military action until such time as Napoleon was 'put absolutely outside the possibility of exciting troubles'. In doing so they ensured the inevitability of war, and in doing that, they also ensured that popular support for Napoleon in France would ebb. After nearly twelve years of continuous warfare, few people in France welcomed the prospect of its return.<br /><br />Source:<br />Alan Schom, <em>One Hundred Days: Napoleon’s Road to Waterloo</em> (London, 1993), p. 105.<br /><br /><br />",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 41,
+                    "url": "https://100days.org.uk/api/elements/41",
+                    "name": "Description",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "09/03/1815",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 40,
+                    "url": "https://100days.org.uk/api/elements/40",
+                    "name": "Date",
+                    "resource": "elements"
+                }
+            }
+        ],
+        "extended_resources": []
+    },
+    {
+        "id": 5,
+        "url": "https://100days.org.uk/api/collections/5",
+        "public": true,
+        "featured": false,
+        "added": "2015-03-09T14:45:56+00:00",
+        "modified": "2015-03-12T16:57:44+00:00",
+        "owner": {
+            "id": 8,
+            "url": "https://100days.org.uk/api/users/8",
+            "resource": "users"
+        },
+        "items": {
+            "count": 7,
+            "url": "https://100days.org.uk/api/items?collection=5",
+            "resource": "items"
+        },
+        "element_texts": [
+            {
+                "html": false,
+                "text": "Week 4",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 50,
+                    "url": "https://100days.org.uk/api/elements/50",
+                    "name": "Title",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "16/03/1815",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 40,
+                    "url": "https://100days.org.uk/api/elements/40",
+                    "name": "Date",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": true,
+                "text": "<strong>16 March 1815 – 22 March 1815</strong><br /><br />On 16 March, Louis XVIII addressed the two Chambers of the Corps Legislatif in an extraordinary display of traditional pomp and splendour. Louis’ speech held up the Constitutional Charter as a bastion of liberty that Napoleon would sweep aside and called upon all French citizens to ensure its support: ‘Let us rally, gentlemen, let us rally around it, let it be our sacred standard…let the two Chambers give it the force of authority it requires and this war will then truly prove to be national war, showing what can be done by a great people united together by their love for their King and by their fundamental love of the State.’ When he returned to the Tuileries, he was given news of Ney’s defection. He went into exile just three days later. Only a few hours later, on 20 March, Napoleon arrived back in Paris and took up residence in the Tuileries.<br /><br />It is often better to travel than to arrive. Napoleon’s march north – christened ‘The Flight of the Eagle’ – was a stunning spectacle that caught the imagination of many. Consolidating that success into a political system that could run France, while simultaneously preparing to meet the onslaught of the allies, was substantially more difficult. The internal matters by themselves raised many issues about what kind of order Napoleon sought to impose, and how far he would be prepared to keep, and improve on, the Constitutional Charte that Louis had rather reluctantly accepted in October 1814. But the combination of the internal and external pressures meant that, from the beginning, he encountered the problem that he needed troops – and France was deeply reluctant to provide them. Moreover, having ridden back to power on the claims of popular legitimacy, he could ill afford to alienate the people of France. From the beginning of his first days back in Paris, he was faced with governing in a system no longer of his making, forging alliances with people who had been his severe critics, and consolidating his forces while he watched the European powers mobilize. In retrospect he recognised that it had been a tactical error to return while the Congress of Vienna was still sitting; but it is also true that the Congress itself had been considering changing its arrangements for Napoleon, with some advising assassination, others a more distant exile. As a result, it seems unlikely that they would have disbanded without making certain his final destination. <br /><br />Source:<br />Alan Schom, <em>One Hundred Days: Napoleon’s Road to Waterloo</em> (London, 1993), p. 47",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 41,
+                    "url": "https://100days.org.uk/api/elements/41",
+                    "name": "Description",
+                    "resource": "elements"
+                }
+            }
+        ],
+        "extended_resources": []
+    },
+    {
+        "id": 6,
+        "url": "https://100days.org.uk/api/collections/6",
+        "public": true,
+        "featured": false,
+        "added": "2015-03-18T10:41:30+00:00",
+        "modified": "2015-03-26T14:33:47+00:00",
+        "owner": {
+            "id": 8,
+            "url": "https://100days.org.uk/api/users/8",
+            "resource": "users"
+        },
+        "items": {
+            "count": 7,
+            "url": "https://100days.org.uk/api/items?collection=6",
+            "resource": "items"
+        },
+        "element_texts": [
+            {
+                "html": false,
+                "text": "week 5",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 50,
+                    "url": "https://100days.org.uk/api/elements/50",
+                    "name": "Title",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": true,
+                "text": "<strong>23 March 1815 – 29 March 1815</strong><br /><br />Napoleon’s return to office was not a return to power. For one thing, he found it difficult to recruit the ablest men: when Carnot took the Interior Ministry job, it had already been declined by three others. And, in contrast to his earlier reign, he delegated the administration of the country to those he had appointed. Given that neither Carnot nor Fouché was confident of Napoleon’s ability to survive, they adjusted their behaviour accordingly. Fouché, for example, kept in contact with Louis, Wellington, and Talleyrand. And Carnot was stymied by the fact that Napoleon wanted only loyal civil servants, but that would have meant stripping out the bulk of the administration.<br /><br />One of Napoleon’s first priorities was to appear to liberalize and constitutionalise his rule: freedom of the press was announced on 24 March; on 29 March he announced the abolition of the slave trade; and he sought a rewritten constitutional Charte in the form of an Acte Additionnel, on which he managed to persuade Benjamin Constant, a former outspoken liberal critic to collaborate. But much suggests that Napoleon was not himself an enthusiast for the reforms, despite his public rhetoric; old autocratic habits died hard, and he found the populism generated by his escape discomfiting in practice and a restraint on his actions. He also had to recognise the underlying fragility of his popular support. There were civilian and military riots in Orleans, and elements of royalism surfaced in several towns – not only in Marseilles, but also in Northern France and the Vendée. Having sought to return on the basis of his legitimate right to rule he quickly found that that goodwill was a strained and conditional commodity, not a bank to be endlessly drawn on.<br /><br /><br />",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 41,
+                    "url": "https://100days.org.uk/api/elements/41",
+                    "name": "Description",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "23/03/1815",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 40,
+                    "url": "https://100days.org.uk/api/elements/40",
+                    "name": "Date",
+                    "resource": "elements"
+                }
+            }
+        ],
+        "extended_resources": []
+    },
+    {
+        "id": 7,
+        "url": "https://100days.org.uk/api/collections/7",
+        "public": true,
+        "featured": false,
+        "added": "2015-03-18T10:55:17+00:00",
+        "modified": "2015-04-08T16:38:35+00:00",
+        "owner": {
+            "id": 8,
+            "url": "https://100days.org.uk/api/users/8",
+            "resource": "users"
+        },
+        "items": {
+            "count": 7,
+            "url": "https://100days.org.uk/api/items?collection=7",
+            "resource": "items"
+        },
+        "element_texts": [
+            {
+                "html": false,
+                "text": "Week 6",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 50,
+                    "url": "https://100days.org.uk/api/elements/50",
+                    "name": "Title",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": true,
+                "text": "<strong>30 March 1815 – 5 April 1815</strong><br /><br />The last point of resistance to Napoleon’s return was Bourdeaux, held by the Duchess d’Angoulême (the only surviving child of Louis XVI and Marie-Antoinette, and the niece of Louis XVIII), described by Napoleon as ‘the only man in the family’. But she too was faced with overwhelming odds and on April 3 she set sail as Napoleon’s troops, notionally under General Bertrand Clauzel, but ignoring his orders, entered the city. Her husband (also her cousin, as the son of Louis XVIII’s younger brother), commanding royalist forces in the South, had similarly been forced out. The Duke d’Angoulême had been with Wellington when the first allied troops entered France from Spain in March 1814.<br /><p>On 3 April Napoleon wrote to his new Foreign Minister, Armand Caulaincourt, instructing him to send agents to most of the foreign capitals of Europe, to secure information but above all to assure these nations of his friendly intention towards them. His ‘Lettre circulaire aux souverains’ announced both that the re-establishment of the imperial throne was necessary for the happiness of the French people, and that he had been carried to it by their love. But he also insisted that his wish was for peace and for the protection of international frontiers. Few believed him, and he himself believed that few would do so. Consequently, he identified the over-riding imperative as one of mobilizing to defend France against the aggression of his enemies and against the possibility of civil war. Indeed, on the same day as he wrote to the European sovereigns, he set about creating the largest light cavalry force in existence at that time, which could be used to strike quickly and hard against enemies beyond France’s borders. Of course, this raises the question of his essential intent – was it defensive or aggressive? And were the powers represented at Vienna ever in a position to give his actions the more favourable interpretation given his past record?</p>\n<p>As minister for war, Marshal Louis-Nicholas Davout had spent the previous week trying to recall the higher military officers to Paris in preparation for war. The response was tepid to say the least and Napoleon was forced to accept that past supporters could not be coerced and if they refused to serve it was better to ignore them than proceed against them. Moreover, as he prepared for war, he recognised growing opposition to his rule from within France. Reports of public attitudes showed increasing resentment over his return - largely related to sheer war-weariness. In military terms he was aware that the four major allied powers had retained 75,000 troops, although in March these were still ranged more against each other than against France. But on 25 March they each pledged to raise 150,000 troops – 600,000 in total and vastly more than France could hope to levy. That meant that, once convinced of their hostility, Napoleon’s core tactic had to be to divide, to demoralise, and to pick off armies serially, hoping that the allied coalition would eventually fragment. But to do that he required a large, seasoned army and it needed inspired leadership – and on both fronts there were real questions as to whether these were to be forthcoming.</p>",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 41,
+                    "url": "https://100days.org.uk/api/elements/41",
+                    "name": "Description",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "30/03/1815",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 40,
+                    "url": "https://100days.org.uk/api/elements/40",
+                    "name": "Date",
+                    "resource": "elements"
+                }
+            }
+        ],
+        "extended_resources": []
+    },
+    {
+        "id": 8,
+        "url": "https://100days.org.uk/api/collections/8",
+        "public": true,
+        "featured": false,
+        "added": "2015-03-28T08:43:34+00:00",
+        "modified": "2015-06-03T09:48:04+00:00",
+        "owner": {
+            "id": 8,
+            "url": "https://100days.org.uk/api/users/8",
+            "resource": "users"
+        },
+        "items": {
+            "count": 7,
+            "url": "https://100days.org.uk/api/items?collection=8",
+            "resource": "items"
+        },
+        "element_texts": [
+            {
+                "html": false,
+                "text": "Week 7",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 50,
+                    "url": "https://100days.org.uk/api/elements/50",
+                    "name": "Title",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": true,
+                "text": "<strong>6 April 1815 – 12 April 2015</strong> <br /><br />Having returned to Britain from Vienna, Lord Castlereagh, the British foreign secretary, had to report to the House of Commons on the results of the Congress. There were some sharp exchanges, especially over the treatment of Poland and the resumption of war, but neither the government’s majority nor its commitment to war were ever in doubt. The financial commitments made by Britain and the imperative to mobilize troops were considerable costs to be faced, at a time when many hoped for peace and the resumption of normality, but the British fiscal system that had developed under William Pitt gave the government access to extensive credit in addition to taxation – and, unlike in France, the government’s credit had remained good throughout the revolutionary and Napoleonic wars. In fact, the British quota was eventually met with a combination of British troops and others paid for by the British purse but coming from Hanover, Brunswick, the Netherlands, and elsewhere, assembled under Wellington’s command.<br /><br />In France, Napoleon faced similar problems. He needed both money and men, and for that he needed to establish his legitimacy by popular support – and a willingness to accept tax rises and conscription. But the tax base of Napoleon’s old empire had been dramatically curtailed by the re-imposition of France’s old borders in 1814. Moreover a sizable proportion of the national budget was being absorbed by paying off creditors from the previous war. To solve the military problem Napoleon needed to solve the fiscal problem; to solve the fiscal problem he needed to solve the legitimation problem; and the legitimation problem was only exacerbated by fears of the return of war and austerity. Concerns were growing over unrest from both traditionally loyalist and republican strongholds, neither of which Napoleon’s return could hope to satisfy without major concessions that he was unwilling to make.",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 41,
+                    "url": "https://100days.org.uk/api/elements/41",
+                    "name": "Description",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "06/04/1815",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 40,
+                    "url": "https://100days.org.uk/api/elements/40",
+                    "name": "Date",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "Mark Philp",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 37,
+                    "url": "https://100days.org.uk/api/elements/37",
+                    "name": "Contributor",
+                    "resource": "elements"
+                }
+            }
+        ],
+        "extended_resources": []
+    },
+    {
+        "id": 9,
+        "url": "https://100days.org.uk/api/collections/9",
+        "public": true,
+        "featured": false,
+        "added": "2015-04-08T14:56:32+00:00",
+        "modified": "2015-06-03T09:48:34+00:00",
+        "owner": {
+            "id": 8,
+            "url": "https://100days.org.uk/api/users/8",
+            "resource": "users"
+        },
+        "items": {
+            "count": 7,
+            "url": "https://100days.org.uk/api/items?collection=9",
+            "resource": "items"
+        },
+        "element_texts": [
+            {
+                "html": false,
+                "text": "Week 8",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 50,
+                    "url": "https://100days.org.uk/api/elements/50",
+                    "name": "Title",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": true,
+                "text": "<strong>13 April 1815 – 19 April 1815</strong><br /><br />On 13 April, Caulaincourt wrote an article in the Moniteur warning that war was inevitable and the Bourse fell as a result. On 14 April the liberal political philosopher Benjamin Constant was taken to see Napoleon. His previous fierce opposition was overcome by the Emperor’s charm (in his diary he described him as ‘an astonishing man’), and he was persuaded to draw up reforms to the constitutional charte that had been in place under Louis XVIII. That move was designed to conciliate liberal opinion and to widen the base of support for the regime.<br /><br />On the same day, Napoleon’s advisors in the Treasury reported to him on the financial state of the nation. In 1804 Napoleon’s first imperial budget had raised nearly 600 million francs, rising to 750 million in 1810, and 875 million in 1812. In contrast, Louis XVIII’s projected budget for 1815 was for just under 300 million, much of which was committed; whereas Marshal Louis-Nicholas Davout needed at least 70 million a month – 840 million over the course of the year - for the War Ministry alone. These two interviews encapsulate Napoleon’s problem: he lacked the fiscal and military to impose his will on the population of France, so he needed their support; but the character of support he needed – money and men – were precisely the things that people were most reluctant to concede. How then to win them over?",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 41,
+                    "url": "https://100days.org.uk/api/elements/41",
+                    "name": "Description",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "13/04/1815",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 40,
+                    "url": "https://100days.org.uk/api/elements/40",
+                    "name": "Date",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "Mark Philp",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 37,
+                    "url": "https://100days.org.uk/api/elements/37",
+                    "name": "Contributor",
+                    "resource": "elements"
+                }
+            }
+        ],
+        "extended_resources": []
+    },
+    {
+        "id": 10,
+        "url": "https://100days.org.uk/api/collections/10",
+        "public": true,
+        "featured": false,
+        "added": "2015-04-19T20:07:40+00:00",
+        "modified": "2015-06-03T09:49:10+00:00",
+        "owner": {
+            "id": 8,
+            "url": "https://100days.org.uk/api/users/8",
+            "resource": "users"
+        },
+        "items": {
+            "count": 7,
+            "url": "https://100days.org.uk/api/items?collection=10",
+            "resource": "items"
+        },
+        "element_texts": [
+            {
+                "html": false,
+                "text": "Week 9",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 50,
+                    "url": "https://100days.org.uk/api/elements/50",
+                    "name": "Title",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": true,
+                "text": "<strong>20 April 1815 – 26 April 1815</strong><br /><br />Following his meeting with Napoleon on 14 April, Benjamin Constant’s work produced a draft Acte Additionnel that was submitted on the 19th, signed by Napoleon on 22nd April, and released to the public the following day, without any discussion in the Constitutional Committee. It was not popular, either for its content or its method of production and means of adoption, not satisfying liberals, royalists, republicans or Bonapartists. Moreover, Napoleon was impatient with debate, and with the idea of constitutional powers that could restrain his freedom of action. Recognising that his promulgation of the Acte on his own authority was a deeply unpopular move, he resorted to a plebiscite, the polls for which opened on 26 April, but at which the voter was limited to either endorsing or rejecting the Acte.",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 41,
+                    "url": "https://100days.org.uk/api/elements/41",
+                    "name": "Description",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "20/04/1815",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 40,
+                    "url": "https://100days.org.uk/api/elements/40",
+                    "name": "Date",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "Mark Philp",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 37,
+                    "url": "https://100days.org.uk/api/elements/37",
+                    "name": "Contributor",
+                    "resource": "elements"
+                }
+            }
+        ],
+        "extended_resources": []
+    },
+    {
+        "id": 11,
+        "url": "https://100days.org.uk/api/collections/11",
+        "public": true,
+        "featured": false,
+        "added": "2015-04-22T13:48:18+00:00",
+        "modified": "2015-06-03T09:49:33+00:00",
+        "owner": {
+            "id": 8,
+            "url": "https://100days.org.uk/api/users/8",
+            "resource": "users"
+        },
+        "items": {
+            "count": 7,
+            "url": "https://100days.org.uk/api/items?collection=11",
+            "resource": "items"
+        },
+        "element_texts": [
+            {
+                "html": false,
+                "text": "Week 10",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 50,
+                    "url": "https://100days.org.uk/api/elements/50",
+                    "name": "Title",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": true,
+                "text": "<strong>27 April 1815 – 3 May 1815</strong><br /><br />On 27 April 1815, the <em>Acte Additionne</em>l was published for British readers in the Morning Chronicle, a newspaper that took a critical stance to government policy towards France. Their verdict was that: ‘Upon the whole it is an outline of wise, temperate and well-digested rules, as the basis of a free representative Government, and if the voice of the nation shall be fairly, openly and freely taken upon it, previously to the meeting in the Champs de Mars, we do not see what foreign sovereigns can alledge against it, unless they mean to question the right of any people to judge for themselves….One thing is clear, that with such a constitution, it can be of no consequence to great Britain, whether a BONAPARTE or a BOURBON shall be on the throne in France.’ Cobbett's similarly critical Political Register also took the view that, with a constitution of this form, the other European powers had no justification for interfering in France's domestic affairs.<br /><br />In France, in response to Napoleon’s attempt to enforce conscription, the fragile peace in the royalist west of the country, especially in Brittany, collapsed. Aristocratic leaders and peasant chouans combined to attack urban centres where support for Napoleon was concentrated. In response a movement of jeunes gens in support of the Emperor emerged, linking Nantes, Rennes and other towns. In Rennes, on 29 April, a pacte fédératif was proposed, with the support of delegates from five other Breton départements. The declaration combined support for the general revolutionary principles of liberty and equality with support for the Emperor, whose dynasty was ‘consecrated by our will’, and with a commitment to supporting the authorities and acting within the law. When General Cafferelli was sent to Rennes by Napoleon to act as the government’s commissioner, he reported favourably on the movement and attended a banquet celebrating its founding, following which delegates set off to proselytize. From these roots, a powerful popular movement, designed to resist aristocratic usurpation and the restoration of the Bourbons spread across the country. Like any populist movement under Napoleon, it inspired mixed feelings on the part of the Emperor, but it did testify both to the popularity of his return, and to gradual slide towards civil war in some parts of France.<br /><br />European papers were also full of rumours of the military activities of Joachim Murat, who had married Napoleon’s youngest sister Caroline in 1802 and was created King of Naples by Napoleon in 1808. Murat’s position in Naples after Napoleon’s exile had become fragile and on Napoleon’s return he sided with him and sought to drive the Austrians from Northern Italy. He took Rome and Florence in early April. By the end of the month, Austrian forces had reversed Murat’s advance and he was forced back; a major battle on 2 May at Tolentino essentially ended his campaign in Italy and forced him to flee to Corsica.",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 41,
+                    "url": "https://100days.org.uk/api/elements/41",
+                    "name": "Description",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "27/04/1815",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 40,
+                    "url": "https://100days.org.uk/api/elements/40",
+                    "name": "Date",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "Mark Philp",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 37,
+                    "url": "https://100days.org.uk/api/elements/37",
+                    "name": "Contributor",
+                    "resource": "elements"
+                }
+            }
+        ],
+        "extended_resources": []
+    },
+    {
+        "id": 12,
+        "url": "https://100days.org.uk/api/collections/12",
+        "public": true,
+        "featured": false,
+        "added": "2015-04-29T10:52:51+00:00",
+        "modified": "2015-06-03T09:49:54+00:00",
+        "owner": {
+            "id": 8,
+            "url": "https://100days.org.uk/api/users/8",
+            "resource": "users"
+        },
+        "items": {
+            "count": 7,
+            "url": "https://100days.org.uk/api/items?collection=12",
+            "resource": "items"
+        },
+        "element_texts": [
+            {
+                "html": false,
+                "text": "Week 11",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 50,
+                    "url": "https://100days.org.uk/api/elements/50",
+                    "name": "Title",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": true,
+                "text": "<strong>4 May 1815 – 10 May 1815</strong> <br /><br />One of the central problems facing those governing Britain during the 100 Days was that the case for fighting Napoleon was principally one of her own (Britain’s) national security. It could not be justified as an attempt to liberate France of an oppressor since, as the Foreign Secretary Castlereagh recognised, there was much wider support for Napoleon in France than there had been for Louis. Privately, Castlereagh acknowledged that there could be no guarantee that the Bourbons would be restored, and he was alert to the failure of the Bourbon king in October 1814 to tolerate and include ministers from amongst those who were associated with the revolution and Napoleon’s early empire, but who had subsequently turned against the emperor – such as Joseph Fouché. Similar problems threatened to recur if Louis was restored: in April and May 1815, for example, Fouché was playing a double game involving intense negotiation with the allies while ostensibly acting as one of Napoleon’s chief ministers, but there seemed little chance Louis would accept him (indeed he was eventually banished).<br /><br />But this more cautious line of British opinion was not widely shared in Vienna, where there was substantially greater intransigence over the question of the Bourbon restoration. Austrian attention was not just on what was happening in France but also on its own involvement in Italy. One of the hopes of the French revolutionary generation of 1792 had been that the French Revolution would be echoed – and in part protected – by the establishment of sister republics throughout Europe. And, that was, indeed, the system they built, although largely through imposition and occupation. That system had brought a wide resource base for tax and conscription and reduced the costs of war for France. It had also resulted in a significant reduction of Austrian involvement in Italy, something Vienna was quick to rectify after Napoleon’s first abdication in 1814. In 1815, the only place outside France in which Napoleon’s return produced an active military response in support was in Naples. Joachim Murat had abandoned Napoleon in Russia to save his throne in Italy in 1813, but found himself marginalised after 1814 by the Great Powers and under threat from the Austrians, the British, and from anti-Napoleonic forces in Italy. Upon Napoleon’s return, he gambled on being able to defeat the Austrians in the North and to act as a flag bearer for a wider unification of Italy; he declared for Italian Independence and unification on 31 March 1815, and moved North to challenge the Austrians. Murat’s defeat on 2 &amp; 3 May at Tolentino forced a rapid withdrawal south.",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 41,
+                    "url": "https://100days.org.uk/api/elements/41",
+                    "name": "Description",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "04/05/1815",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 40,
+                    "url": "https://100days.org.uk/api/elements/40",
+                    "name": "Date",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "Mark Philp",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 37,
+                    "url": "https://100days.org.uk/api/elements/37",
+                    "name": "Contributor",
+                    "resource": "elements"
+                }
+            }
+        ],
+        "extended_resources": []
+    },
+    {
+        "id": 13,
+        "url": "https://100days.org.uk/api/collections/13",
+        "public": true,
+        "featured": false,
+        "added": "2015-05-05T14:38:27+00:00",
+        "modified": "2015-06-03T09:50:15+00:00",
+        "owner": {
+            "id": 8,
+            "url": "https://100days.org.uk/api/users/8",
+            "resource": "users"
+        },
+        "items": {
+            "count": 7,
+            "url": "https://100days.org.uk/api/items?collection=13",
+            "resource": "items"
+        },
+        "element_texts": [
+            {
+                "html": false,
+                "text": "Week 12",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 50,
+                    "url": "https://100days.org.uk/api/elements/50",
+                    "name": "Title",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": true,
+                "text": "<strong>11 May 1815 – 17 May 1815</strong><br /><br />Napoleon’s instinct had been to defer elections to the Chamber of Deputies until the end of the crisis caused by his return, but he faced widespread opposition to doing so and was persuaded that he needed at least to observe the forms of the new government. But when the legislative elections were held on 14 May, with a low turn-out in a suffrage restricted by property qualifications to some 100,000 people, they provided a strong indication that there was only very weak support for him among the elite in the country. A liberal majority was returned, whose attitude to Napoleon was one of suspicion and mistrust, and only a very small minority could really be called Bonapartists.<br /><br />Despite Napoleon’s desire that his brother Lucien, whom he had created a Senator, would chair the Assembly, the new deputies elected Comte Jean-Denis Lanjuinais, who had played a major role in the deposing of Napoleon in 1814, and who had refused to take the loyalty oath on the Emperor’s return from Elba. Even the Chamber of Peers, refused to behave as Napoleon’s creature. The result was that the Chambers sought to establish and insist on the rule of law, leading to endless controversies with Napoleon, and to his hands being tied more restrictively than he had anticipated. Moreover, insurrection in the Vendée flared up on 15 May. Although led by monarchists, the principal motivating force was the threat of further requisitioning of men for the war. The revolt was pacified, but the region remained febrile and tied up a significant component of troops.<br /><br />In contrast, Napoleon found an upsurge of popular support through the formation of people’s militias, known as the Fédérés, who expressed their hatred of the Bourbons and saw their patriotic duty as to support their country against its enemies. In Paris, at least, the majority of those who became involved were from poorer, working class backgrounds – creating a dilemma for Napoleon about whether in fact they could be managed under his regime, or whether they threatened a return of the revolutionary populism of the sans-culottes of 1793 and 1794.",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 41,
+                    "url": "https://100days.org.uk/api/elements/41",
+                    "name": "Description",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "11/05/1815",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 40,
+                    "url": "https://100days.org.uk/api/elements/40",
+                    "name": "Date",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "Mark Philp",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 37,
+                    "url": "https://100days.org.uk/api/elements/37",
+                    "name": "Contributor",
+                    "resource": "elements"
+                }
+            }
+        ],
+        "extended_resources": []
+    },
+    {
+        "id": 14,
+        "url": "https://100days.org.uk/api/collections/14",
+        "public": true,
+        "featured": false,
+        "added": "2015-05-12T10:59:14+00:00",
+        "modified": "2015-06-03T09:50:45+00:00",
+        "owner": {
+            "id": 8,
+            "url": "https://100days.org.uk/api/users/8",
+            "resource": "users"
+        },
+        "items": {
+            "count": 7,
+            "url": "https://100days.org.uk/api/items?collection=14",
+            "resource": "items"
+        },
+        "element_texts": [
+            {
+                "html": false,
+                "text": "Week 13",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 50,
+                    "url": "https://100days.org.uk/api/elements/50",
+                    "name": "Title",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": true,
+                "text": "<strong>18 May 1815 – 24 May 1815</strong><br /><br />In France, the register of votes for the plebiscite on the Acte Additionnel remained open from 26 April to the end of May. Nonetheless, turnout remained relatively low, with only a fifth of those eligible to vote actually doing so – although that might have been an indication either of apathy or of contentment. At the same time Napoleon was able to welcome back members of his family, with whom relations had often been strained or worse at the end of the Empire, but who now rallied in his cause. Lucien Bonaparte returned to Pairs and was reconciled with his brother (after 10 years of estrangement) on 9 May. Both Joseph and Jérôme also returned, although his brother Louis declined to do so. The odd combination of populism (seeking the ratification of the Acte by plebiscite) and the return to the autocratic dynastic politics of the old Empire continued to increase throughout May: Napoleon’s instinct was for autocratic action, but he faced the problem that the wider support he needed would be lost if he took that route.<br /><br />In Italy, Murat was being pursued by Austrian troops, who entered Naples on the 20th, the day after he fled across the sea to seek refuge in France, only to find himself largely ignored by Napoleon. Italy’s occupation by Napoleon had left many hostile to all French association, but there remained an undercurrent of Jacobin feeling which others could identify with; they saw in the prospect of war and revolution an alternative to rule by external powers – Austria in the North, and the Bourbon king Ferdinand IV in the South and Sicily – and might have followed the standard of Murat as a potential patriot king, unifying the Italian people and providing them with a base for independence. In fact, much of the impetus for such a movement had died before Murat acted, and few followed his lead. When he returned from Corsica in the autumn of 1815 to try to foment a revolt against Ferdinand’s rule on Naples, he was quickly captured. But his example, enhanced by his execution by firing squad in October 1815, added another page (for some positive, for others like Leopardi, negative) in the catalogue of mounting pressure for constitutional rule and for greater unification in Italy that was only fully realised some fifty-six years later. The defeat of Murat left Austria in charge of Italy, the English having regarded his rebellion as warranting Austrian intervention. But it also ensured that the allies had no other sites of conflict on which to concentrate their military energies. Napoleon now stood alone.",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 41,
+                    "url": "https://100days.org.uk/api/elements/41",
+                    "name": "Description",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "18/05/1815",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 40,
+                    "url": "https://100days.org.uk/api/elements/40",
+                    "name": "Date",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "Mark Philp",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 37,
+                    "url": "https://100days.org.uk/api/elements/37",
+                    "name": "Contributor",
+                    "resource": "elements"
+                }
+            }
+        ],
+        "extended_resources": []
+    },
+    {
+        "id": 15,
+        "url": "https://100days.org.uk/api/collections/15",
+        "public": true,
+        "featured": false,
+        "added": "2015-05-22T13:20:29+00:00",
+        "modified": "2015-06-03T09:51:17+00:00",
+        "owner": {
+            "id": 8,
+            "url": "https://100days.org.uk/api/users/8",
+            "resource": "users"
+        },
+        "items": {
+            "count": 7,
+            "url": "https://100days.org.uk/api/items?collection=15",
+            "resource": "items"
+        },
+        "element_texts": [
+            {
+                "html": false,
+                "text": "Week 14",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 50,
+                    "url": "https://100days.org.uk/api/elements/50",
+                    "name": "Title",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": true,
+                "text": "<strong>25 May 1815 – 31 May 1815</strong><br /><br />By the last week of May, it is striking how the initial flood of ‘Lois et Décrets’ that had followed the return of Napoleon began to dry up. This was partly because Napoleon increasingly had to bargain both with the Council of State and with the Chambers, neither of which were prepared to accept his direction as a matter of course. Moreover, many of those within his regime seemed to have spent considerable energy in trying to ensure that they would not be so tarred by their association with it that they would be penalised when their leader finally fell.<br /><br />The main reason for this tailing of off governmental activity, however, was that the regime’s attention seems to have been increasingly absorbed by the preparation for inevitable war with allies: Napoleon had to organize to attack before his enemies were in a position to descend upon him. There may also have been some additional distraction from law-making in the preparations for the Festival on the Champ de Mai on 1 June – at which it became clear how distant the commitments and priorities of the Emperor and his dynasty were from the more patriotic hopes of the fédérés.<br /><br />But there was also a sense that Napoleon himself was failing. He worked constantly, only to be told to relax by his doctors; his advisors found his previous certainties dissolving into vacillation; and he was in a poor emotional state following his clear abandonment by his wife Marie Louise (who retained control of his son). He was especially shaken by the death of his old comrade Marshall Louis Alexandre Berthier, who fell – or was pushed or jumped – from a third story window, underlining to Napoleon the absence of a cadre of officers upon whom he could place his complete reliance.",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 41,
+                    "url": "https://100days.org.uk/api/elements/41",
+                    "name": "Description",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "25/05/1815",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 40,
+                    "url": "https://100days.org.uk/api/elements/40",
+                    "name": "Date",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "Mark Philp",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 37,
+                    "url": "https://100days.org.uk/api/elements/37",
+                    "name": "Contributor",
+                    "resource": "elements"
+                }
+            }
+        ],
+        "extended_resources": []
+    },
+    {
+        "id": 18,
+        "url": "https://100days.org.uk/api/collections/18",
+        "public": true,
+        "featured": false,
+        "added": "2015-06-03T10:18:35+00:00",
+        "modified": "2015-06-03T10:20:22+00:00",
+        "owner": {
+            "id": 1,
+            "url": "https://100days.org.uk/api/users/1",
+            "resource": "users"
+        },
+        "items": {
+            "count": 7,
+            "url": "https://100days.org.uk/api/items?collection=18",
+            "resource": "items"
+        },
+        "element_texts": [
+            {
+                "html": false,
+                "text": "Week 15",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 50,
+                    "url": "https://100days.org.uk/api/elements/50",
+                    "name": "Title",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "01/06/1815",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 40,
+                    "url": "https://100days.org.uk/api/elements/40",
+                    "name": "Date",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "Tim Clayton",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 37,
+                    "url": "https://100days.org.uk/api/elements/37",
+                    "name": "Contributor",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": true,
+                "text": "<strong><strong>1st June 181</strong>5 – 7th June 1815<strong><br /></strong></strong><br />On 1 June Napoleon held the ceremony of the Champ de Mai. A throne was set up against the facade of the École Militaire. It was a warm, cloudy day after a thunderstorm. A covered room with benches for 15,000 people housed deputations from the regions, the electoral colleges and the representatives of the people. It was open at the centre to allow the throne to be seen from the Pont de Iéna. 30,000 Imperial Guards and Parisian National Guards lined the route from the Tuileries Palace to the Pont de Iéna and the Champ de Mars and more than 100,000 people stood beyond the human hedge to watch.<br /><br />The sun shone for the great set piece and around 10am all the officials took their places. The Emperor left the Tuileries at 11am and processed to the throne, wearing an ill-calculated antique purple costume, that made him look, John Cam Hobhouse noted, 'ungainly and squat'. The acceptance of the new constitution was announced, a Te Deum was sung, and a choral mass was celebrated. Then the Eagles were blessed and the Emperor took his place on a second, raised throne 200 paces into the Champ de Mars. The colonels of the regiments gathered with the officers of the Imperial and National Guard and they swore their oaths to defend their eagles to the last.<br /><br />General Claude-Etienne Guyot, commander of the Horse Grenadiers of the Guard and a devoted adherent of the Emperor, was impressed by the good order and calmness in this gathering of innumerable people from every part of France and thought that 'it must prove to our external enemies and might teach our internal ones that they should despair of again changing the form that the Government wishes to adopt and the chief that France has just chosen once more'. That day in Bamberg Napoleon's former chief of staff Marshal Berthier fell to his death from an upper-story widow of the castle.<br /><br />The next day French troops began to concentrate on the border and spies were sent to check the locations of allied troops. The newly elected chambers took their oath of loyalty to the emperor and the following evening there was a huge fireworks display in the Place de la Concorde. The first units of the Guard left Paris on 5 June and Napoleon sent his chief of staff Marshal Soult to the northern border on 7 June, the day of the opening of the Corps Législatif.<br /><br />Wellington had been told that Napoleon would be assassinated by republicans during the Champ de Mai and was disappointed when this failed to transpire. As he continued to make plans with the Austrians, Russians and Prussians for their joint invasion of France, he was receiving conflicting information about French intentions. He wrote to the Austrian commander, Field Marshal Schwarzenberg, that he had learned (incorrectly) that General Reille's Corps had left the frontier to help suppress the revolt in the Vendée, but other reports predicted an imminent French attack. One told him misleadingly that the real French attack would be preceded by a feint at the Prussians, another that a false attack would come from Maubeuge to the south of Brussels while the real French attack would be launched from Lille forty miles further west. One report correctly predicted both the location and timing of Napoleon’s strike, but Wellington treated all these rumours with scepticism. He thought that the moment for a French attack had passed and that Napoleon would act on the defensive and wait calmly for the allied invasion, now set for 1 July. Blücher shared his opinion, writing to his wife on 3 June ‘we could perfectly well stay here for another year because Bonaparte won’t attack us’.<br /><br />Meanwhile a routine of parades, reviews, exercises and amusement continued for the British in Belgium. The British Ambassador and spy-master, Sir Charles Stuart, and the Duke of Wellington both hosted balls during this week and the weekly horse races and cricket matches continued.<br /><br />",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 41,
+                    "url": "https://100days.org.uk/api/elements/41",
+                    "name": "Description",
+                    "resource": "elements"
+                }
+            }
+        ],
+        "extended_resources": []
+    },
+    {
+        "id": 19,
+        "url": "https://100days.org.uk/api/collections/19",
+        "public": true,
+        "featured": false,
+        "added": "2015-06-06T21:11:23+00:00",
+        "modified": "2015-06-06T21:11:23+00:00",
+        "owner": {
+            "id": 8,
+            "url": "https://100days.org.uk/api/users/8",
+            "resource": "users"
+        },
+        "items": {
+            "count": 7,
+            "url": "https://100days.org.uk/api/items?collection=19",
+            "resource": "items"
+        },
+        "element_texts": [
+            {
+                "html": false,
+                "text": "Week 16",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 50,
+                    "url": "https://100days.org.uk/api/elements/50",
+                    "name": "Title",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "8th June 1815 – 14th June 1815 \r\n\r\nOn 9 June the Allies signed the Treaty of Vienna reaffirming their intention of forcing Napoleon from the throne and of not laying down their arms until this had been achieved. The following day Napoleon issued orders to his generals telling them where to gather their troops together on 13 June. In order to confuse Wellington he maintained to the last possible moment a strong French presence between Valenciennes and Lille further to the west. He told Marshal Davout to ‘send for Marshal Ney and tell him that if he wishes to be present at the first battles, he ought to be at Avesnes on the fourteenth’.\r\n\r\nThe Imperial coach rolled out of Paris in the small hours of 12 June and reached Laon where Napoleon’s Guard and cavalry reserve was gathered. On the border General d’Erlon reviewed his troops at Valenciennes as a pretext for moving them eastward. At nearby Tournai Hanoverian Hussars reported French troops massed opposite them while other reports placed 100,000 Frenchmen further east between Avesnes and Philippeville. Nevertheless, the Allies believed the French presence to be defensive and the Prussian General Gneisenau wrote that ‘the danger of attack has almost disappeared’. \r\nOn 13 June the Hussars at Tournai reported that the French had left and been replaced by customs officers who told them the French army was concentrating; the chief of Allied intelligence at Mons, General Dörnberg warned the Prussian commander, Prince Blücher, that he believed a French attack was imminent. The French army was, indeed, concentrated around Avesnes and Mauberge, close to Mons and Napoleon ordered the frontier to be closed on pain of death.\r\n\r\nWellington spent the day at a cricket match with the sixteen-year-old Lady Jane Lennox and that day he wrote that Napoleon joining the army from Paris was ‘not likely to be immediate’. At a large race meeting at the park of Schendelbeke outside Geraardsbergen/Grammont Lord Hay won the principal sweepstakes and Captain Fraser of the 7th Hussars won Lord Uxbridge’s Cup. On Wednesday 14 June it poured with incessant rain all day and night in Belgium.\r\n\r\nGeneral d’Erlon’s Corps marched to their start positions and camped near Solre-sur-Sambre; other French troops were near Beaumont and Philippeville. Allied outposts warned that the French had moved eastward towards the Prussians, while French deserters warned of an attack the following day. At noon General Gneisenau instructed his corps commanders to be ready to concentrate. At 10pm the British liaison officer at Prussian headquarters wrote to Wellington to tell him that the Prussians now believed that Napoleon was about to attack, and General Gneisenau issued orders to his army to leave its billets and march to reinforce I Corps at Charleroi.\r\n\r\nWellington did nothing. It was still raining heavily when, during the night, the French army of 123,000 men began to move across the border. On the other side of France Marshal Suchet’s tiny army invaded Savoy.\r\n",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 41,
+                    "url": "https://100days.org.uk/api/elements/41",
+                    "name": "Description",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "08/06/1815",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 40,
+                    "url": "https://100days.org.uk/api/elements/40",
+                    "name": "Date",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "Tim Clayton",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 37,
+                    "url": "https://100days.org.uk/api/elements/37",
+                    "name": "Contributor",
+                    "resource": "elements"
+                }
+            }
+        ],
+        "extended_resources": []
+    },
+    {
+        "id": 20,
+        "url": "https://100days.org.uk/api/collections/20",
+        "public": true,
+        "featured": false,
+        "added": "2015-06-12T13:58:15+00:00",
+        "modified": "2015-06-12T13:58:15+00:00",
+        "owner": {
+            "id": 8,
+            "url": "https://100days.org.uk/api/users/8",
+            "resource": "users"
+        },
+        "items": {
+            "count": 7,
+            "url": "https://100days.org.uk/api/items?collection=20",
+            "resource": "items"
+        },
+        "element_texts": [
+            {
+                "html": false,
+                "text": "Week 17",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 50,
+                    "url": "https://100days.org.uk/api/elements/50",
+                    "name": "Title",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "Week 17 \r\n15th June 1815 - 21st June 1815\r\n\r\nBy morning of 15 June the rain had slackened to mist and drizzle. The first shots were fired at first light and by 10am it was clear that Charleroi was under attack; before he left the town Ziethen sent messengers to alert both Blücher and Wellington. \r\n\r\nThe Prussian plan was for Ziethen to retreat slowly to Ligny where the rest of their army would gather to fight next day, and at midday Blücher wrote to Wellington, asking him to march to his support. After taking Charleroi, Napoleon sent Ney up the road towards Brussels while he pushed back the Prussians. \r\n\r\nOver dinner Wellington received reports of fighting near Charleroi but only in the evening, after receiving confirmation from Blücher of a major attack on Charleroi, did he order his troops to prepare to march. \r\nThat evening most senior British officers and distinguished civilians were invited to a ball hosted by the Duchess of Richmond. Wellington issued instructions to senior figures at the ball and some left before supper; others, like Wellington, stayed to the end and a few had to fight next day in their ball dress.\r\n\r\nOn 16 June Napoleon expected to rest most of his troops for a night march on Brussels while a detachment swept aside Ziethen’s corps and blocked the road to the east against Prussian reinforcements. Instead, he found that a large Prussian army was gathering to oppose him at Ligny. He changed his plan and attempted to trap and annihilate the Prussians but his orders were misunderstood. He instructed 30,000 men assigned to Ney to march on Ligny, but Ney had found himself fighting more and more of Wellington’s troops and ordered them to march back again. Nevertheless, Napoleon won a bloody victory at Ligny while, by nightfall, most of Wellington’s army had arrived at Quatre Bras.\r\n\r\nDiscovering that the Prussians had retreated northward during the night, on 17 June Wellington ordered his army to retreat to a previously selected defensive position at Mont Saint-Jean, a little south of Waterloo, where Blücher promised to join him. During the day a terrific thunderstorm broke out and it rained torrentially all afternoon and all night.\r\n\r\nIn the morning of 18 June, miserably wet, muddy and hungry soldiers tried to dry their weapons ready to fight while many French troops were still trudging through the mud to the battlefield. The battle began at about 11.30 with an attack on the chateau of Hougoumont, an allied stronghold. \r\n\r\nA major infantry attack further east was then defeated by a charge by British heavy cavalry. Prussian troops revealed themselves on the eastern edge of the field: they had been delayed by the state of the roads and flooded streams, but they began to draw French reserves towards them. A prolonged artillery bombardment preceded charges by French cavalry against allied squares but these held. Eventually, the French captured the farm of La Haye Sainte and pressure on the centre of Wellington’s line became intense. \r\n\r\nAt the same time, however, the Prussians turned the French right wing and by 6pm were attacking the village of Plancenoit behind Napoleon’s front line. He was forced to commit about half of his reserve of Guard infantry to the struggle to hold them off. He sent the rest of the Guard forward to attack the allied centre, but Wellington still had reserves and was able to hold the line. Meanwhile fresh Prussian troops appeared on Wellington’s left wing, precipitating a panic rout from the French that spread from the east. \r\n\r\nDuring the night the French fled towards Charleroi, pursued by Prussians who captured most French artillery and baggage in a traffic jam at Genappe.\r\n\r\nGrouchy had been fighting the Prussian rearguard at Wavre and the fighting there continued the following morning (19 June) until Grouchy learned of Napoleon’s defeat and withdrew. Napoleon arrived at Philippeville that same morning on his way back to Paris.\r\n\r\nOn 20 June General Lamargue crushed the Vendéan royalists at Rocheservière near Lézé. There was fierce fighting at Namur between Grouchy’s rearguard and Thielmann’s advance guard and Avesnes surrendered after a lucky shot blew up the powder magazine. The British government learned what had happened on 16 June, while rumours of a defeat reached Paris.\r\n\r\nOn the morning of 21 June Napoleon reached Paris. Carnot recommended fighting it out with or without the support of the politicians, but other advisers considered that he must have the support of the Chambers. Napoleon dismissed the idea of seizing arbitrary power but Lafayette rallied the Chamber of Representatives against him. Firm news of the defeat arrived, but Napoleon issued a bulletin arguing that Waterloo was almost won when morale collapsed. \r\n\r\nLucien and Joseph attended an all-night meeting of the Council of Ministers with a commission of the two Chambers that urged negotiation with the allies and Napoleon’s abdication. Napoleon may have taken poison and then changed his mind and called for an antidote. Wellington crossed the border proclaiming that he was not an enemy to the French nation, but only to ‘the Usurper . . . with whom no peace and no truce can be maintained’.\r\n\r\nLate that night Major Henry Percy delivered Wellington’s dispatch to Lord Liverpool in Grosvenor Square and then went with him to find the Prince Regent who was attending a ball in St James’s Square. \r\n",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 41,
+                    "url": "https://100days.org.uk/api/elements/41",
+                    "name": "Description",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "15/06/1815",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 40,
+                    "url": "https://100days.org.uk/api/elements/40",
+                    "name": "Date",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "Tim Clayton",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 37,
+                    "url": "https://100days.org.uk/api/elements/37",
+                    "name": "Contributor",
+                    "resource": "elements"
+                }
+            }
+        ],
+        "extended_resources": []
+    },
+    {
+        "id": 21,
+        "url": "https://100days.org.uk/api/collections/21",
+        "public": true,
+        "featured": false,
+        "added": "2015-06-20T20:29:37+00:00",
+        "modified": "2015-09-10T13:22:56+00:00",
+        "owner": {
+            "id": 8,
+            "url": "https://100days.org.uk/api/users/8",
+            "resource": "users"
+        },
+        "items": {
+            "count": 7,
+            "url": "https://100days.org.uk/api/items?collection=21",
+            "resource": "items"
+        },
+        "element_texts": [
+            {
+                "html": false,
+                "text": "Week 18",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 50,
+                    "url": "https://100days.org.uk/api/elements/50",
+                    "name": "Title",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "22nd June 1815 - 28th June 1815\r\n\r\nThe Waterloo dispatch was published in an extraordinary edition of the London Gazette on 22 June, guns fired at ten from the Tower and the Regent’s Park and that night the city of London was illuminated to celebrate the victory. Mail coaches decked in laurel brought the news to the British provinces over the next two days. \r\n\r\nIn Paris Napoleon abdicated in favour of his son, Napoleon II.  The commission of the Chambers of Peers and Representatives took control of the country 23 June with Fouché as the commission's president. There were mass desertions from the force under Soult after the Emperor’s abdication was announced, especially from the Imperial Guard. \r\n\r\nMeanwhile the Allies were closing in. Blücher wrote to Wellington arguing that ‘We should advance on Paris without stopping, refuse all negotiations, and show this traitorous and vain nation that we know it and thus despise it . . . if the Parisians will not hand Napoleon over or kill him themselves, they will experience my revenge.’ The Chambers elected a Commission du Gouvernement with Fouché at its head. \r\n\r\nNapoleon ordered Admiral Decrès to anchor two frigates at Rochefort to take him to America and the following day he asked Fouché for passports. His main library was to be packed and delivered to an American merchant to be sent across the Atlantic. Fouché told Wellington of the plan and withheld the passports, without which the frigates were not to leave Rochefort. \r\n\r\nBy 23 June the peasants had given up trying to bury the dead on the battlefield of Waterloo and were burning them in heaps: hot weather had made the matter urgent. Guise surrendered to the Prussians on 24 June and the following day Wellington’s troops stormed Cambrai but Valenciennes and Condé held out defiantly. Napoleon said farewell to his arts minister Vivant Denon, then left the Elysée palace just after midday for Malmaison. The Treaty of Cholet ended the rebellion in the Vendée.\r\n\r\nSoult’s force joined Grouchy at Soissons on 26 June but Grouchy found the men unruly and unusable and troops were still deserting en masse. Soult resigned as chief of staff and left for Paris. A French delegation met the Prussians to negotiate an end to hostilities, but the Prussians demanded the surrender of Paris, which the delegation refused. \r\n\r\nNapoleon received his lover Marie Walewska at Malmaison and said farewell. Wellington captured Péronne. Nearly all the wounded who remained on the battlefield had been discovered and moved and most surgeons shifted from Waterloo to the Brussels hospitals. Locals were by now selling items gleaned from the battlefield to the earliest tourists: eagle cap badges and cuirasses were especially popular. News of Napoleon’s abdication was published in London.\r\n\r\nBlücher’s Prussians and Grouchy’s army had converged to within twenty miles of each other as they approached Paris. Guard light cavalry and horse artillery bivouacked near Villers-Cotterêts were attacked and forced to flee by Prussians. Gneisenau wrote to Müffling, the Prussian liaison officer with Wellington, asking him to persuade the Duke to hand Napoleon over to the Prussians should he be captured. Blücher planned to have him shot in the castle of Vincennes, where the Duc d’Enghien had been executed. \r\n\r\nThe following morning the Prussians bombarded and attacked Grouchy at Villers-Cotterêts. The provisional government in Paris proclaimed a state of siege and the bridge over the Seine at Chatou, only a mile from Malmaison, was burned. Decrès received a letter confirming the travel arrangements of Napoleon. \r\n\r\nDisplaced peasantry and disbanded soldiers flocked into the city, where members of the Imperial Guard might kill anybody who shouted ‘Vive le roi’ in their vicinity. General Rapp defeated an Austrian corps under the Crown Prince of Württemberg at the battle of La Suffel near Strasbourg. \r\n\r\nA public subscription for the relief of the sufferers was launched in London, raising £9,488 that day and reaching £100,000 by early August.\r\n",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 41,
+                    "url": "https://100days.org.uk/api/elements/41",
+                    "name": "Description",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "Tim Clayton",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 37,
+                    "url": "https://100days.org.uk/api/elements/37",
+                    "name": "Contributor",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "22/06/1815",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 40,
+                    "url": "https://100days.org.uk/api/elements/40",
+                    "name": "Date",
+                    "resource": "elements"
+                }
+            }
+        ],
+        "extended_resources": []
+    },
+    {
+        "id": 22,
+        "url": "https://100days.org.uk/api/collections/22",
+        "public": true,
+        "featured": false,
+        "added": "2015-06-24T14:23:53+00:00",
+        "modified": "2015-06-24T14:23:53+00:00",
+        "owner": {
+            "id": 8,
+            "url": "https://100days.org.uk/api/users/8",
+            "resource": "users"
+        },
+        "items": {
+            "count": 7,
+            "url": "https://100days.org.uk/api/items?collection=22",
+            "resource": "items"
+        },
+        "element_texts": [
+            {
+                "html": false,
+                "text": "Week 19",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 50,
+                    "url": "https://100days.org.uk/api/elements/50",
+                    "name": "Title",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "29th June 1815 - 5th July 1815\r\n\r\nOn 29 June a Prussian detachment was ordered to cross the bridge at Chatou and seize Bonaparte at Malmaison. Napoleon offered to take command of the troops defending Paris but Fouché rejected the proposal. After learning this he set out from Malmaison for the west of France in a convoy of coaches. Before leaving he visited the room where Josephine died and said goodbye to Hortense and his mother. He intended to emigrate to the United States. That evening he reached Rambouillet where he had spent happy times with Marie-Louise and indulged in further nostalgia. \r\n\r\nThe Prussians got their orders in the afternoon, and sped to Chatou, where they found the bridge burned and heard that Napoleon had left. \r\n\r\nGrouchy entered Paris in the early hours of 30 June with 50,000 men but explained to Davout that they were disorganised, demoralised and incapable of defending the city. He resigned. Vandamme marched into the Château de Vincennes. He and Davout signed a letter to the Chamber of Representatives deploring the reimposition of Bourbon rule and swearing to defend the cause of independence. Suchet signed an armistice and fell back on Lyons and Lacourbe fought a delaying action at Foussemague against an Austrian corps. Blücher ordered probing attacks on the suburbs of Paris and Saint-Germain and Maisons were occupied. Napoleon reached Tours. The British government received an application from the rulers of France for a passport and safe conduct for Bonaparte to reach America, but it was refused. Fouché had ensured that the British navy was aware of Napoleon’s intentions, although in fact the Admiralty was already aware that Napoleon would try to reach America and had issued instructions to stop him.\r\n\r\nOn 1 July Exelmans defeated a detachment of 650 cavalry under von Sohr around Versailles; only 330 escaped. The following day, however, the Prussians drove the French from Versailles to Vaugirard and Montrouge, capturing Issy, Vanves and Châtillon. Napoleon had reached Niort and was debating whether to join the army at Orleans or to smuggle himself an American merchant ship. Lord Keith warned Rear Admiral Hotham, commanding the squadron cruising off Brittany, of Bonaparte’s supposed intention to try to reach America. One of Hotham’s ships, the Bellerophon, had been blockading the port of Rochefort throughout June.\r\n\r\nOn 3 July the French counter-attacked against Ziethen at Issy; then Vandamme’s chief of staff proposed terms for surrender. A convention was signed at Saint-Cloud by which the French army was to evacuate Paris and retire south of the Loire. Napoleon reached Rochefort where he found the frigates Saale and Méduse waiting, but the more powerful Bellerophon guarding the entrance. The captain of the Méduse refused to fight, but Lieutenant Genty and Ensign Doret offered to sail Napoleon across Atlantic in a small boat (for which they were ejected from the navy until 1830). Napoleon’s entourage also considered the corvette Bayadère, anchored in the Gironde, whose captain was loyal, and the Danish merchantman, Magdeleine. \r\n\r\nOn 5 July Joseph Bonaparte arrived at Rochefort and generously offered to exchange identity with his brother but Napoleon hesitated. That day the French army left Paris to march to the south of the Loire. \r\n\r\n\r\n",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 41,
+                    "url": "https://100days.org.uk/api/elements/41",
+                    "name": "Description",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "29/06/1815",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 40,
+                    "url": "https://100days.org.uk/api/elements/40",
+                    "name": "Date",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "Tim Clayton",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 37,
+                    "url": "https://100days.org.uk/api/elements/37",
+                    "name": "Contributor",
+                    "resource": "elements"
+                }
+            }
+        ],
+        "extended_resources": []
+    },
+    {
+        "id": 23,
+        "url": "https://100days.org.uk/api/collections/23",
+        "public": true,
+        "featured": false,
+        "added": "2015-07-05T20:05:32+00:00",
+        "modified": "2015-09-10T13:21:52+00:00",
+        "owner": {
+            "id": 8,
+            "url": "https://100days.org.uk/api/users/8",
+            "resource": "users"
+        },
+        "items": {
+            "count": 7,
+            "url": "https://100days.org.uk/api/items?collection=23",
+            "resource": "items"
+        },
+        "element_texts": [
+            {
+                "html": false,
+                "text": "Week 20 ",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 50,
+                    "url": "https://100days.org.uk/api/elements/50",
+                    "name": "Title",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "6th July- 12th July 1815\r\n\r\n6th July \r\nIn the wake of Waterloo, Louis XVIII travelled slowly towards Paris.  At the Parisian 'suburb' of Arnouville, Louis agreed to meet Fouché who has been trying to ‘manage’ the monarch's return (and secure his own future).  The meeting must have gone well – despite Fouché’s hugely compromised past – since Louis made him minister of police. Chateaubriand and Talleyrand were also present.  Chateaubriand was contemptuous - he reported that he had been waiting in a corner of the antechamber:\r\n‘Suddenly a door opened: silently Vice entered leaning on the arm of Crime, M. deTalleyrand walking in supported by M. Fouché; the infernal vision passed slowly before me, penetrated the King’s room, and vanished. Fouché had come to swear fealty and homage to his lord; the trusty regicide, going down on his knees, laid the hands which caused Louis XVI’s head to fall between the hands of the royal martyr’s brother; the apostate bishop went surety for the oath.  \r\nBefore leaving Saint-Denis, I was received by the King, and had the following conversation with him: “Well?” said Louis XVIII…”\r\nWell, Sire, so you are taking the Duc d’Otrante?” (i.e., Fouché)\r\n“I have had to:…everyone said we could not do otherwise. What do you think?”\r\n“Sire, the thing is done: I beg Your Majesty’s permission to say nothing.”\r\n“No, no, speak: you know how I have resisted since leaving Ghent.”\r\n“Sire, I am only obeying your orders; pardon my loyalty: I think the monarchy is finished.”\r\nThe King kept silence; I was beginning to tremble at my boldness when His Majesty remarked:\r\n“Well, Monsieur de Chateaubriand, I am of your opinion.”  (Chateaubriand, Memoirs from beyond the Tomb, 2014, pp. 289-90.)\r\n\r\nParis had been abandoned by French troops in the face of the advance of Wellington and Blücher; Louis followed at a leisurely pace. One British officer described Louis visiting his camp which was about three miles from the city centre: ‘the King has just passed with all his guards, going at an easy walk. He was received by us in line, and by all the people with loud and frequent shouts of ‘vive le Roi! Vivent les Bourbons.’  (Lt. Hugh Wray, 6.7.1815, cited in A. Brett-James, The Hundred Days 1964,p. 212).\r\n\r\nThe following day, the Executive Commission, established to govern France following Napoleon’s abdication, dissolved the two Chambres under the pretext that with Prussian troops in the Tuileries gardens they could not deliberate freely.\r\n\r\nOn 8 July Louis XVIII was restored and re-entered Paris after an interval of exactly 100 Days\r\n \r\nBetween 3-8 July Napoleon was holed up in Rochefort,  at the estuary of the Charante. He was  hoping to set sail for America to claim asylum using one of the two French frigates (the Salle and the Méduse) anchored off the coast, but he was concerned at the possibility of British capture and still not entirely convinced that it would not be worth turning back to fight for Paris.  There was also a possibility of travelling further down the coast and boarding one of two American frigates stationed there (the Pike and the Ludlow) and using the Salle and Méduse to hold up the British while he slipped away. \r\n\r\nIn a state of considerable indecision, he was persuaded that the British blockade of the port made escape impossible (although it seems unlikely that the British could have guaranteed his capture, especially during the first days of his stay in Rochefort). \r\n\r\nOn 8 July word reached Napoleon that the Executive Commission, established following his abdication and headed by the treacherous Fouché, whose support (along with that of Talleyrand) was now firmly switched behind Louis XVIII, had given him 24 hours to leave the country, and had declared any one supporting his continued stay on French soil to be guilty of treason.  Napoleon was now firmly trapped between the British and the prospect of a final stand against the Bourbons.  On July 10 Napoleon sent two aides to negotiate with Captain Maitland of the Bellerophon, who encouraged them to believe that England might provide asylum.  \r\n",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 41,
+                    "url": "https://100days.org.uk/api/elements/41",
+                    "name": "Description",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "06/07/1815",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 40,
+                    "url": "https://100days.org.uk/api/elements/40",
+                    "name": "Date",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "Mark Philp",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 37,
+                    "url": "https://100days.org.uk/api/elements/37",
+                    "name": "Contributor",
+                    "resource": "elements"
+                }
+            }
+        ],
+        "extended_resources": []
+    },
+    {
+        "id": 24,
+        "url": "https://100days.org.uk/api/collections/24",
+        "public": true,
+        "featured": false,
+        "added": "2015-07-12T21:17:25+00:00",
+        "modified": "2015-07-12T21:17:25+00:00",
+        "owner": {
+            "id": 8,
+            "url": "https://100days.org.uk/api/users/8",
+            "resource": "users"
+        },
+        "items": {
+            "count": 7,
+            "url": "https://100days.org.uk/api/items?collection=24",
+            "resource": "items"
+        },
+        "element_texts": [
+            {
+                "html": false,
+                "text": "Week 21",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 50,
+                    "url": "https://100days.org.uk/api/elements/50",
+                    "name": "Title",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "July 13 – 19 1815\r\nAfter three days of agonising over the prospects of making a run for America, being encouraged by his loyal supporters and his brother Joseph to take back control of the army and head for Paris, and taking up the offer of asylum in England, Napoleon took the last option, and on 15 July he surrendered to Maitland on board the Bellerophon.\r\n\r\nMaitland had consciously misled him, but Napoleon was a ready believer. His note to the Prince of Wales on 13 July betrayed his willingness to believe in British good intentions: ‘Exposed to the factions which distract my country and to the enmity of the greatest Powers of Europe, I have ended my political career, and I come, like Themistocles, to throw myself on the hospitality of the English people; I put myself under the protection of their laws, which I claim from Your Majesty as the most powerful, the most constant, and the most generous of my enemies.’ (F. McLynn Napoleon: A Biography, p.  634)  \r\n\r\nApparently, John Wilson Crocker, the first secretary of the Admiralty, roared with laughter at the reference to Themistocles (who was ostracized and then sentenced to death (c 470 BCE) by a suspicious and ungrateful Athens, and forced him to seek asylum with the Greek’s enemy Artaxerxes of Persia, who made him governor of Magnesia). \r\n\r\nThe voyage to Torbay took seven days. Throughout the crossing Napoleon was treated with respect, and with some affection by the crew, but he was not made aware of the depth of the British Government’s hostility to him.\r\n\r\nMeanwhile, Castlereagh joined Wellington in Paris along with a number of other senior British politicians concerned to settle the peace on a permanent basis and was to remain there until November when the Second Treaty of Paris brought a final end to the war.   Lady Shelley saw a good deal of Wellington and wrote in her diary:\r\nThose who accuse him of a lack of feeling – and some there are who state as much – have not seen him as I have, his eye glistening, and his voice broken, as  he spoke of the losses sustained at Waterloo. ’I hope to God,’ he said one day, that I have fought my last battle. It is a bad thing to be always fighting. While in the thick of it I am too much occupied to feel anything; but it is wretched just after. It is quite impossible to think of glory. Both mind and feelings are exhausted. I am wretched even at the moment of victory, and I always say that, next to a battle lost, the greatest misery is a battle gained. Not only do you lose those dear friends with whom you have been living, but you are forced to leave the wounded behind you. To be sure, one tried to do the best for them, but how little that is! At such moments every feeling in your breast is deadened.  I am now just beginning to regain my natural spirits, but I never wish for any more fighting.’ (Brett-James p.215)\r\n",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 41,
+                    "url": "https://100days.org.uk/api/elements/41",
+                    "name": "Description",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "13/07/1815",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 40,
+                    "url": "https://100days.org.uk/api/elements/40",
+                    "name": "Date",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "Mark Philp",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 37,
+                    "url": "https://100days.org.uk/api/elements/37",
+                    "name": "Contributor",
+                    "resource": "elements"
+                }
+            }
+        ],
+        "extended_resources": []
+    },
+    {
+        "id": 25,
+        "url": "https://100days.org.uk/api/collections/25",
+        "public": true,
+        "featured": false,
+        "added": "2015-07-16T14:16:09+00:00",
+        "modified": "2015-07-16T14:23:19+00:00",
+        "owner": {
+            "id": 8,
+            "url": "https://100days.org.uk/api/users/8",
+            "resource": "users"
+        },
+        "items": {
+            "count": 5,
+            "url": "https://100days.org.uk/api/items?collection=25",
+            "resource": "items"
+        },
+        "element_texts": [
+            {
+                "html": false,
+                "text": "Week 22",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 50,
+                    "url": "https://100days.org.uk/api/elements/50",
+                    "name": "Title",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "July 20 - August 1815\r\nOn his arrival at Torbay, the British government declared Napoleon a prisoner of war.   There was no legal basis for doing so, and Napoleon and his supporters resorted to legal manoeuvring to try to get the courts to issue a writ of habeas corpus requiring his release from detention on the Bellerophon.  Massed British crowds of the curious sought glimpses of the Emperor from the shore and cliffs, or hired boats to row them alongside the Bellerophon for a closer look, helping to keep alive Napoleon’s hopes that the public would support his demand to be landed and given asylum.  Their government had no intention of allowing him that privilege, fearful that they would lose control of him if he secured legal protection.  \r\n\r\nInstead, they determined that he would be sent to the island of St Helena, in the South Atlantic, and given the half-pay of a General to support himself there.  To forestall the efforts to serve a writ of habeas corpus, the Bellerophon put to sea, rendezvousing at sea with the Northumberland, to which Napoleon was transferred on 7 August and by which he was taken to his final destination, where he died on 5 May 1821, aged 51 years old.\r\n",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 41,
+                    "url": "https://100days.org.uk/api/elements/41",
+                    "name": "Description",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "20/07/1815",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 40,
+                    "url": "https://100days.org.uk/api/elements/40",
+                    "name": "Date",
+                    "resource": "elements"
+                }
+            },
+            {
+                "html": false,
+                "text": "Mark Philp",
+                "element_set": {
+                    "id": 1,
+                    "url": "https://100days.org.uk/api/element_sets/1",
+                    "name": "Dublin Core",
+                    "resource": "element_sets"
+                },
+                "element": {
+                    "id": 37,
+                    "url": "https://100days.org.uk/api/elements/37",
+                    "name": "Contributor",
+                    "resource": "elements"
+                }
+            }
+        ],
+        "extended_resources": []
+    }
+]
