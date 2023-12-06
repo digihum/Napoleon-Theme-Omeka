@@ -1,5 +1,6 @@
 {
     "name": "digihum/omeka-theme-napoleon",
+    "type": "omeka-theme",
     "extra": {
       "installer-name": "Napoleon-Theme"
     }
