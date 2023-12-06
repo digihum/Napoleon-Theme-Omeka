@@ -124,7 +124,7 @@
 	
 	
 	function loadObjectPage(objectIndex) {
-	var jsonObject = $.getJSON("static/api/items", function(result) {
+	var jsonObject = $.getJSON("static/api/items.json", function(result) {
 	$.each(result, function(index,field){
 		itemId = field["id"];
     	$.each(field["element_texts"], function(index, value){
@@ -316,7 +316,7 @@ var itemId = "";
 var colId = "";
 var timelineIndex = 0;
 
-var jsonObject = $.getJSON("/api/items", function(result) {
+var jsonObject = $.getJSON("static/api/items.json", function(result) {
 	
 	$.each(result, function(index,field){
 		itemId = field["id"];
@@ -400,7 +400,7 @@ function displayTimelimeObjects(){
 	var colTitle = "";
 	var colSub = "";
 
-	var jsonObject = $.getJSON("/api/collections", function(result) {
+	var jsonObject = $.getJSON("static/api/collections.json", function(result) {
 
 		$.each(result, function(index,field){
 			colId = field["id"];
