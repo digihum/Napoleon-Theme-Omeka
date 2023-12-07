@@ -8,9 +8,9 @@
       <div class="social-container clearfix">
         <h2 class="twitter-feed-title">Further Information</h2>
         <div id="further-menu">
-          <ul><li><a href="about">About</li>
+          <ul><li><a href="/about/">About</li>
             <li>
-              <a href="terms">Terms and Conditions</a>
+              <a href="/terms/">Terms and Conditions</a>
 </li>
 <li>
           <a href="#" data-cc="c-settings">Cookie Settings</a>
@@ -18,7 +18,7 @@
           <li>
             <a href="https://warwick.ac.uk/privacy/">Privacy Policy</a>
 <li>
-          <a href="accessibility">Accessibility</a>
+          <a href="/accessibility/">Accessibility</a>
 </li>
 </ul>
         </div>        
@@ -59,5 +59,8 @@
           });
         });
 </script>
+
+<?php fire_plugin_hook('public_footer', array('view' => $this)); ?>
+
 </body>
 </html>
