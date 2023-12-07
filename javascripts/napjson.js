@@ -1,3 +1,5 @@
+var theme_base = "/themes/Napoleon-Theme/javascripts/";
+
 // JavaScript Document
 
     var itemId = "";
@@ -52,10 +54,10 @@
 	}
 	
    function loadHomePage() {
-   	var filesObject = $.getJSON($location . "static/api/files.json", function(result){
+   	var filesObject = $.getJSON(theme_base + "static/api/files.json", function(result){
    		var files = result;
 
-		var jsonObject = $.getJSON($location . "static/api/items.json", function(result) {
+		var jsonObject = $.getJSON(theme_base + "static/api/items.json", function(result) {
 		$.each(result, function(index,field){
 			itemId = field["id"];
 	    	$.each(field["element_texts"], function(index, value){
@@ -96,7 +98,7 @@
 					itemImg = img[0]["file_urls"]["thumbnail"];
 					   
 					$("#slider").append('<div id="slide' + itemId + '" ' + 'class="slides ' + currentTab + ' "><img src="' + itemImg +'">' + 
-						'<a href="items/show/' + itemId + '" class="link" ><h2 	class="object-date">' + dateString + "</h2>" + "<h3>" + itemTitle + "</h3></a></div>");
+						'<a href="/items/show/' + itemId + '" class="link" ><h2 	class="object-date">' + dateString + "</h2>" + "<h3>" + itemTitle + "</h3></a></div>");
 							i++;
 							currentTab = "";
 					}		  
@@ -124,7 +126,7 @@
 	
 	
 	function loadObjectPage(objectIndex) {
-	var jsonObject = $.getJSON($location . "static/api/items.json", function(result) {
+	var jsonObject = $.getJSON(theme_base + "static/api/items.json", function(result) {
 	$.each(result, function(index,field){
 		itemId = field["id"];
     	$.each(field["element_texts"], function(index, value){
@@ -153,7 +155,7 @@
 		
 		if(itemRelated.length > 0)itemRelated = itemRelated.split(";");
 		$.each(itemRelated,function(index,value){
-			relatedLinks+= '<li><a href="http://' + value + '" >'+ value + '</a></li>';
+			relatedLinks+= '<li><a href="https://' + value + '" >'+ value + '</a></li>';
 		});
 
 		itemDate[0] *= 1;
@@ -176,8 +178,8 @@
 			});
 		
 		
-		if(field["extended_resources"]["geolocations"]){
-		$.getJSON(field["extended_resources"]["geolocations"]["url"] , function(geoResult) {
+		if(field["extended_resources"]["geotheme_bases"]){
+		$.getJSON(field["extended_resources"]["geotheme_bases"]["url"] , function(geoResult) {
 			itemLong = geoResult["longitude"];
 			itemLat = geoResult["latitude"];
 			itemZoom = geoResult["zoom_level"];
@@ -201,8 +203,8 @@
 		'<div class="object-slide1">' + 
 		'<h2 class="object-date">' + dateString + "</h2>" + '<div class="object-img-wrapper">' + '</div>' + 
 		'<p class="object-contributor">Source: ' + itemSource + '</p>' + 
-		'<p class="object-contributor">Permission: ' + itemRights + '</p>' + '<a href="/www/napoleon/timeline/#timeline-summary-wrapper">Go to weekly summary' + '</a>' +
-		'<h2 class="object-date">Location</h2>' + '<div id="map-wrapper' + itemId + '" class = "map-wrapper">' + '</div>' +
+		'<p class="object-contributor">Permission: ' + itemRights + '</p>' + '<a href="/timeline/#timeline-summary-wrapper">Go to weekly summary' + '</a>' +
+		'<h2 class="object-date">theme_base</h2>' + '<div id="map-wrapper' + itemId + '" class = "map-wrapper">' + '</div>' +
 		'<h2 class="object-date">Related Links</h2><ul>' +	relatedLinks +	
 		
 		'</ul></div>' +
@@ -259,7 +261,7 @@ function loadTimeline(){
 	
 	
 		
-	var jsonObject = $.getJSON($location . "static/api/collections.json", function(result) {
+	var jsonObject = $.getJSON(theme_base + "static/api/collections.json", function(result) {
 	
 	$.each(result, function(index,field){
 			colId = field["id"];
@@ -284,7 +286,17 @@ function loadTimeline(){
 			colDesc = colDesc.substr(1,colDesc.length - 2);
 			var tempDate = new Date(dateNow.getFullYear() , colDate[1] - 1 , colDate[0]);
 			if(tempDate != dateNow){
-				stringObject += flag + '{' + '"startDate":' + '"' + colDate[2] + ',' + colDate[1] + ',' + colDate[0] +	 '"' + ',' + '"endDate":' + '"' + colDate[2] + ',' + colDate[1] + ',' + colDate[0] + '"' + ',' + '"headline":'+ '"' + colTitle + '"' + ',' + '"text":'+ '"<div id=\'timeline-summary-wrapper' + colId + '\' class=\'timeline-summary-wrapper' + colId + '\' ><article class=\'weekly-summary clearfix\'><h2 class=\'weekly-summary-title' + colId + '\'>Summary for this week</h2><div class=\'summary-text\'><p class=\'summary' + colId + '\'>'+colDesc+'</p></div>' + '</article>' + '</div><div class=\'timeline-weekly-objects-wrapper' + colId + '\' ><h2>Objects for this Week</h2><br /><br /><ul class=\'timeline-weekly-objects' + colId + '\'></ul></div>"' + '}';
+				stringObject += 
+					flag + '{' + '"startDate":' + '"' + colDate[2] + ',' + colDate[1] + ',' + colDate[0]
+					 + '"' + ',' + '"endDate":' + '"' + colDate[2] + ',' + colDate[1] + ',' + colDate[0] 
+					 + '"' + ',' + '"headline":'+ '"' + colTitle 
+					 + '"' + ',' + '"text":'+ '"<div id=\'timeline-summary-wrapper' + colId + '\' class=\'timeline-summary-wrapper' + colId 
+					 + '\' ><article class=\'weekly-summary clearfix\'><h2 class=\'weekly-summary-title' + colId 
+					 + '\'>Summary for this week</h2><div class=\'summary-text\'><p class=\'summary' + colId 
+					 + '\'>' + colDesc
+					 + '</p></div>' + '</article>' + '</div><div class=\'timeline-weekly-objects-wrapper' + colId 
+					 + '\' ><h2>Objects for this Week</h2><br /><br /><ul class=\'timeline-weekly-objects' + colId 
+					 + '\'></ul></div>"' + '}';
 				flag = ","; 
 			}
 			
@@ -316,7 +328,7 @@ var itemId = "";
 var colId = "";
 var timelineIndex = 0;
 
-var jsonObject = $.getJSON($location . "static/api/items.json", function(result) {
+var jsonObject = $.getJSON(theme_base + "static/api/items.json", function(result) {
 	
 	$.each(result, function(index,field){
 		itemId = field["id"];
@@ -376,7 +388,7 @@ function displayTimelimeObjects(){
 				tempItemTitle = timelineArr[timelineTimerIndex];
 				timelineTimerIndex++;
 		
-	 $(".timeline-weekly-objects" + tempColId).append("<li><a href='items/show/" + tempItemId + "'>" + tempItemTitle + "</a></li>");
+	 $(".timeline-weekly-objects" + tempColId).append("<li><a href='/items/show/" + tempItemId + "'>" + tempItemTitle + "</a></li>");
 	}
 	
 	if(timelineTimerIndex >= timelineArr.length){clearInterval(timeIndex);}
@@ -400,7 +412,7 @@ function displayTimelimeObjects(){
 	var colTitle = "";
 	var colSub = "";
 
-	var jsonObject = $.getJSON($location . "static/api/collections.json", function(result) {
+	var jsonObject = $.getJSON(theme_base + "static/api/collections.json", function(result) {
 
 		$.each(result, function(index,field){
 			colId = field["id"];
@@ -431,7 +443,7 @@ function displayTimelimeObjects(){
 			if(tempDate <= dateNow){
 			stringObject += flag + '{' + '"startDate":' + '"' + colDate[2] + ',' + colDate[1] + ',' + colDate[0] +	 '"' + ',' + '"endDate":' + '"' + colDate[2] + ',' + colDate[1] + ',' + colDate[0] + '"' + ',' + '"headline":'+ '"' + colTitle + '"' + ',' + '"text":'+ '"<div id=\'timeline-summary-wrapper' + colId + '\' class=\'timeline-summary-wrapper' + colId + '\' ><article class=\'weekly-summary clearfix\'><h2 class=\'weekly-summary-title' + colId + '\'>Summary for this week</h2><div class=\'summary-text\'><p class=\'summary' + colId + '\'>'+colDesc+'</p></div>' + '</article>' + '</div><div class=\'timeline-weekly-objects-wrapper' + colId + '\' ><h2>Objects for this Week</h2><br /><br /><ul class=\'timeline-weekly-objects' + colId + '\'></ul></div>"' + '}';
 			flag = ","; 
-			objectList += '<li><a href="items/show/' +itemId + '" >' + itemTitle + '</a></li>';  
+			objectList += '<li><a href="/items/show/' +itemId + '" >' + itemTitle + '</a></li>';  
 			itemId = colId;
 				var timelineJsonObject = $.getJSON(colUrl , function(sumResult) {
 					$.each(sumResult, function(index, value){
@@ -493,7 +505,7 @@ var timeOut = setInterval(function()
 		//alert(itemId);
 		if($(".timeline-summary-wrapper" + itemId).length > 0){
 			if(objIndex < objTitles.length && $(".timeline-weekly-objects" + objCol[objIndex])) {
-				$(".timeline-weekly-objects" + objCol[objIndex]).append("<li><a href='items/show/" + objLinks[objIndex] + "'>" + objTitles[objIndex]+ "</a></li>");
+				$(".timeline-weekly-objects" + objCol[objIndex]).append("<li><a href='/items/show/" + objLinks[objIndex] + "'>" + objTitles[objIndex]+ "</a></li>");
 				//$(".summary" + weeklyID[weeklyIndex]).html(weeklyDescription[weeklyIndex]);
 				objIndex++
 			}
