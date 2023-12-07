@@ -112,8 +112,9 @@ $m = (date('m') - 1);
             </li>
           </ul>
         </nav>
-        <input class="sitewide-search" placeholder="" type="text">
-        <?php echo search_form(); ?>
+        <div id="search-container">
+          <?php echo search_form(); ?>
+        </div>
       </div>
     </section>
   </header>
